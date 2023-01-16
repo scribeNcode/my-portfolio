@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header section */
+.headerSection{
+    display: flex;
+    flex-direction: row;
+    background: #22253e;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+    
+    
+}
+
+.logo{
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    
+}
+
+.navLinks{
+    display: flex;
+    margin-right: 1rem;
+    gap: 3rem;
+    list-style: none;
+    font-size: 1.3rem;
+}
