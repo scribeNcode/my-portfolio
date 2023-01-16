@@ -2,12 +2,14 @@ import React from 'react'
 
 function Header(){
 return(
-   <section>
-    <div>Developstar</div>
-    <div>About</div>
-    <div>Work</div>
-    <div>Contact</div>
-    <div>Resume</div>
+   <section className='headerSection'>
+    <div className='logo'>Developstar</div>
+    <div className='navLinks'>
+      <li>About</li>
+      <li>Work</li>
+      <li>Contact</li>
+    </div>
+    
    </section> 
 )
 }
