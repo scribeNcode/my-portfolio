@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import{Routes,Route} from 'react-router-dom'
-import Home from './Components/Pages/Home'
-import Works from './Components/Pages/Works'
-import Contact from './Components/Pages/Contact'
+import Home from './Pages/Home'
+import Works from './Pages/Works'
+import Contact from './Pages/Contact'
 
 function App() {
   return (
