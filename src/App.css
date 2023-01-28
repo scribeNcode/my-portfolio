@@ -10,11 +10,11 @@ body{
 .headerSection{
     display: flex;
     flex-direction: row;
-    background: whitesmoke;
+    background: #d8deea;
     color: #22253e;
     align-items: center;
     justify-content: space-between;
-    height: 6rem;
+    height: 5rem;
     
     
 }
@@ -38,8 +38,8 @@ body{
 /* // Home Page Section */
 .Home{
     height: 100vh;
-    background: #22253e;
-    color: aliceblue;
+    background: #fff6ee;
+    color: black;
 }
 
 .HomePage{
@@ -49,6 +49,7 @@ body{
     margin-top: 20vh;
     padding: 0;
     display: flex;
+
     justify-content: space-between;
     align-items: center;
 }
@@ -71,6 +72,6 @@ body{
 
 .my_image img{
     border-radius: 50%;
-    width: 10rem;
+    width: 20rem;
     
 }
