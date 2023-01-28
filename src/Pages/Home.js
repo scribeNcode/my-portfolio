@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Components/Navigation/Header'
 import Button from '../Components/Navigation/Button'
-import image from '../Images/Oluwaseun.jpg'
+import image from '../Images/myImage.png'
 
 function Home(){
     return(
