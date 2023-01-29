@@ -10,11 +10,15 @@ body{
 .headerSection{
     display: flex;
     flex-direction: row;
-    background: #d8deea;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
     color: #22253e;
     align-items: center;
     justify-content: space-between;
     height: 5rem;
+    
     
     
 }
@@ -38,7 +42,7 @@ body{
 /* // Home Page Section */
 .Home{
     height: 100vh;
-    
+    background: white;
     color: black;
 }
 
@@ -46,12 +50,18 @@ body{
     /* border: 1px solid red; */
     width: 80%;
     margin: auto;
-    margin-top: 5vh;
+    margin-top: 10rem;
     padding: 0;
-    display: flex;
-   
     
-    justify-content: space-between;
+   
+    /* background: rgb(194, 166, 166); */
+    
+    
+}
+
+.home__display{
+    display: flex;
+    justify-content: space-between; 
     align-items: center;
 }
 
@@ -76,5 +86,12 @@ body{
     border-radius: 20%;
     width: 20rem;
    
+    
+}
+
+Button{
+    padding: 1rem;
+    border-radius: 0.7rem;
+    
     
 }
