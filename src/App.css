@@ -10,13 +10,14 @@ body{
 .headerSection{
     display: flex;
     flex-direction: row;
-    background: white;
+    background: green   ;
     position: fixed;
     top: 0;
     width: 100%;
+    
     color: #22253e;
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center;*/
+    justify-content: space-between; 
     height: 5rem;
     
     
@@ -24,8 +25,8 @@ body{
 }
 
 .logo{
-    font-size: 2.5rem;
-    margin-left: 1rem;
+    font-size: 2rem;
+   
     font-family: 'Work Sans', sans-serif;
     display: flex;
     flex-direction: row;
@@ -37,7 +38,7 @@ body{
 .navLinks{
     display: flex;
     margin-right: 1rem;
-    gap: 2.5rem;
+    gap: 1.5rem;
     list-style: none;
     font-size: 1.3rem;
 }
@@ -47,7 +48,21 @@ body{
 .Home{
     height: 100vh;
     background: white;
-    color: black;
+    color: black;  
+}
+
+.HomePageWrapper{
+    border: 1px solid red;
+    margin-top:5rem;
+    margin-left:2rem;
+    position: relative;
+    margin-right: 2rem;
+
+}
+
+.socialMediaIcons{
+    position: absolute;
+    bottom: 0;
     
 }
 
@@ -70,6 +85,9 @@ body{
     justify-content: space-between; 
     align-items: center;
     position:relative;
+    gap: 1rem;
+    border: 1px solid red; 
+              
     
 }
 
@@ -100,9 +118,42 @@ body{
 
 
 
-Button{
-    padding: 1rem;
-    border-radius: 0.7rem;  
+.button{
+      
     position: absolute;
     bottom: 0;
+}
+
+.button Button{
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+
+.LeftSec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border:1px solid red;
+    margin-left: 2rem;
+    justify-content: space-between;
+}
+
+
+.RightSect{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid red;
+    margin-right: 2rem;
+    gap: 1rem;
+}
+
+.AboutMe{
+    border: 1px solid red;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+         
 }
