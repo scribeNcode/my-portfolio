@@ -4,7 +4,7 @@ function Works(){
     //setup our project info state
   const [currentItem, setCurrentItem] = useState(0)
   const [project, setProject] = useState(null)
-  const [loading, setLoading] = useState(null   )
+  // const [loading, setLoading] = useState(null )
 
   useEffect(()=>{
     //list of items
@@ -26,7 +26,7 @@ function Works(){
     const Item = projectItems[currentItem]
     //set our state
     setProject(Item)
-    setLoading(false);
+    // setLoading(false);
   },[currentItem]);
 
   //handle next button click
@@ -50,12 +50,12 @@ function Works(){
         </section>
         <section className = 'works'>
         <section className="news">
-          {loading ?(<div>Loading</div>) : (
+          {
             <div className="items">
               <h1>{project.title}</h1>
               <p>{project.about}</p>
             </div>
-          ) }
+           }
         </section>
 
         <div>
