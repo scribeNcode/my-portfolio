@@ -1,13 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BsFillMoonFill } from "react-icons/bs";
+import { FaBars, FaTimes} from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+
+
+
 
 
 function Header(){
+
+  const [click, setClick] = useState(false)
+  const handleClick = ()=>{
+    setClick(!click)
+  };
 return(
    <section className='headerSection'>
     <div className='LeftSec'>
     <div className='logo'>
-      Dev
+      <Link to='/'>Dev</Link>
     </div>
     
     </div>
@@ -17,15 +27,27 @@ return(
     <div className='RightSect'>
     <nav>
     <div className='navLinks'>
-      <li>About</li>
-      <li>Work</li>
-      <li>Contact</li>
+      <li>
+        <Link to="/about">About</Link>
+      </li>
+      <li>
+        <Link to= '/works'>Work</Link>
+      </li>
+      <li>
+        <Link to= "contact">Contact</Link>
+      </li>
     </div>
     </nav>
      
       
       <div>
       <BsFillMoonFill size='2rem'/>
+      </div>
+
+      <div className='hamburger'>
+        {click?(<FaTimes size={20} style={{color: "#fff"}} />): <FaBars size={20} style={{color: "#fff"}} />}
+        
+        
       </div>
       
       
