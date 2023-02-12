@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../Components/Navigation/Header";
-import Button from "../Components/Navigation/Button";
+import Footer from "../Components/Navigation/Footer"
 import image from "../Images/myImage.png";
 import techbro from "../Images/techbro.png";
 
@@ -8,6 +8,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLeanpub } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
 
 function Home() {
   
@@ -19,7 +21,7 @@ function Home() {
       <div className="HomePageWrapper">
         <div className="socialMediaIcons">
           <p>
-            <FaGithub />
+            <FaGithub  />
           </p>
           <p>
             <FaLinkedin />
@@ -39,15 +41,17 @@ function Home() {
                 As a software engineer, I specialize in developing high-quality
                 and responsive mobile & web applications utilizing technologies
                 such as HTML, CSS, JavaScript, ReactJS, and VueJS.
+                <div className="button">
+            <Link to= "/project" className="btn">Projects</Link>
+            <Link to= "/contact" className="btn  btn-light">Contact</Link>
+          </div>
               </p>
             </div>
             <div className="my_image">
               <img src={image} alt="my" />
             </div>
           </div>
-          <div className="button">
-            <Button />
-          </div>
+          
         </section>
       </div>
 
@@ -100,7 +104,10 @@ function Home() {
         </section>
       </section>
 
-
+      <section>
+        <Footer/>
+      </section>
+      
       
     </section>
   );
