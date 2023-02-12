@@ -9,12 +9,27 @@ import { Link } from 'react-router-dom';
 
 function Header(){
 
+  // for transparent header background 
+  const [color, setColor] = useState(false)
+  const changeColor = () =>{
+    if(window.scrollY >= 100){
+      setColor(true);
+    }else{
+      setColor(false)
+    }
+  };
+
+  window.addEventListener("scroll", changeColor);
+
+
+
+
   const [click, setClick] = useState(false)
   const handleClick = ()=>{
     setClick(!click)
   };
 return(
-   <section className='headerSection'>
+   <section className={color ? 'headerSection headerSection-scroll' : "headerSection"}>
     <div className='LeftSec'>
     <div className='logo'>
       <Link to='/'>Dev</Link>
@@ -26,16 +41,20 @@ return(
 
     <div className='RightSect'>
     <nav>
-    <div className='navLinks'>
-      <li>
+    <div >
+
+      <ul className={click ? 'navLinks active' : 'navLinks'}>
+        <li>
         <Link to="/about">About</Link>
       </li>
       <li>
         <Link to= '/works'>Work</Link>
       </li>
       <li>
-        <Link to= "contact">Contact</Link>
+        <Link to= "/contact">Contact</Link>
       </li>
+      </ul>
+      
     </div>
     </nav>
      
@@ -44,9 +63,8 @@ return(
       <BsFillMoonFill size='2rem'/>
       </div>
 
-      <div className='hamburger'>
+      <div className='hamburger' onClick={handleClick}>
         {click?(<FaTimes size={20} style={{color: "#fff"}} />): <FaBars size={20} style={{color: "#fff"}} />}
-        
         
       </div>
       
