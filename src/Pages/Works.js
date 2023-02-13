@@ -3,12 +3,14 @@ import React from "react";
 import Footer from "../Components/Navigation/Footer";
 import Header from "../Components/Navigation/Header";
 import HeroImg from "../Components/Heroimage"
+import Projectsec from "../Components/Projectsec";
 
 function Works() {
   return (
     <div>
-      <Header />
+      <Header/>
       <HeroImg heading="PROJECTS" text="My latest Projects" />
+      <Projectsec />
       <Footer />
     </div>
   );
