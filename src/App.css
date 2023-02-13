@@ -4,8 +4,9 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
-    
+
 }
+
 
 body{
     background: url('./Images/smearing-bright-blue-paint.jpg');
@@ -172,13 +173,13 @@ a{
     width: 25rem;
     margin-top: 1.5rem;
     margin-left:1.5rem;
-    height: 90vh;
+    height: 70vh;
 }
 
 .offerdiv1{
     border:1px solid black;
-    background: #26a69a;
-    height:90vh;
+    background: #79b7e0;
+    height:70vh;
     display: flex;
     position:relative;                  
     
@@ -296,29 +297,40 @@ a{
     color: white;
     display: flex;
     flex-direction: row;
+    
 }
 
 
 
-.offerdiv2{
-  
-    background: white;
-    height:90vh;
-    border:1px solid black;
-    /* 
+.abtMe_card{
+    display: flex;
     
-    color:black;
+    justify-content: space-between;
     
     
-    margin-left:2rem;   
-    margin-right:6rem;
-    margin-top: 2rem;       
-     width: 20%;
-    right: 2rem;  */
+}
+
+.card1{
+    margin-left: 7rem;
+}
+
+.card2{
+    margin-right: 14rem;
+}
+.abtMe_card2{
+    
+    border: 1px solid red;
+    margin-top: 6rem;
+}
+
+.card3{
+    display: flex;
+    justify-content: center;
+    
 }
 
 .objectSec{
-    background:#26a69a;
+    background:#79b7e0;
     margin-top: 0;
     height: 8rem;
 }

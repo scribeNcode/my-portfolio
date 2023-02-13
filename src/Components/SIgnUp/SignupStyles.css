@@ -1,0 +1,109 @@
+
+.signup_page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    background: black;
+}
+
+.signup_page_content{
+   
+    width: 50%;
+    background: #03001C;
+    color: white;
+    height: 82vh;
+    margin-top: 18vh;
+    margin-left: 4rem;
+    text-align: center;
+   
+}
+
+.signup_page_content h1{
+    margin-top: 1rem;
+}
+
+.signup_gif img{
+    width: 20rem;
+}
+
+
+.signup_form_wrapper{
+    border: 1px solid green;
+    width: 35%;
+    height: 82vh;
+    margin-top: 18vh;
+    margin-right: 4rem;
+    background: white;
+    
+}
+
+form{
+    
+    width: 80%;
+    margin: 1.5rem auto;
+    background: white;
+    height: 70vh;
+    
+     
+}
+
+.form_heading{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+
+.input_container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form_group_label{
+    font-size: smaller;
+    margin-bottom: 0.5rem;
+
+}
+
+ input{
+   padding: 0.4rem 1.5rem ; 
+   border-radius: 0.4rem;
+   margin-bottom: 0.9rem;
+   border: 1px solid #03001C;
+}
+
+
+select{
+    padding: 0.4rem 1.5rem ;
+    border-radius: 0.3rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #03001C;
+    
+
+}
+
+.form_button{
+    padding: 0.5rem 1.5rem ; 
+    border-radius: 0.3rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    border: none;
+    background: #222031;
+    color: white;
+    cursor: pointer;
+    font-size: medium;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #03001C;
+    color: white;
+    
+
+}
+
+input:focus{
+    outline: none;
+}
