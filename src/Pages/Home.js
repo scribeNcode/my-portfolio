@@ -3,7 +3,7 @@ import Header from "../Components/Navigation/Header";
 import Footer from "../Components/Navigation/Footer"
 import image from "../Images/myImage.png";
 import techbro from "../Images/techbro.png";
-
+import AboutMeCard from "../Components/AboutMeCard"
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -55,56 +55,33 @@ function Home() {
         </section>
       </div>
 
-      <section className="">
-        <h1>About Me</h1>
-        <section className="AboutMe">
-          <div className="content">
-            <p>Adeyeye Boluwatife</p>
-            <p>
-              I am a frontend developer with over a year of experience in
-              developing user-facing features with ReactJs, VueJs, and
-              JavaScript. I am passionate about staying current in my field and
-              constantly learning new technologies and processes. I am a quick
-              learner, proactive in seeking growth opportunities, and adaptable
-              to industry changes. This mindset helps me to be effective and
-              stay ahead in my role.
-            </p>
-            <button> Download CV</button>
-          </div>
-          <div className="graphics">
-            <img src={techbro} alt="illustration" />
-          </div>
-        </section>
-      </section>
-
-      <section className="Offer">
-        <section className="what_offer1">
-          <div className="offerdiv1">
-            <div className="my_image offerImage">
-              <img src={image} alt="my" />
-            </div>
-
-            <div className="offer1Content">
-              <div className="objectSec">
-                <FaLeanpub color="" />
-              </div>
-
-              <p>
-                I am a frontend developer with over a year of experience in
+      <section className="abtMe_card">
+        <div className="card1">
+          < AboutMeCard text="I am a frontend developer with over a year of experience in
                 developing user-facing features with ReactJs, VueJs, and
                 JavaScript. I am passionate about staying current in my field
                 and constantly learning new technologies and processes. I am a
                 quick learner, proactive in seeking growth opportunities, and
                 adaptable to industry changes. This mindset helps me to be
-                effective and stay ahead in my role.
-              </p>
-              <button> Download CV</button>
-            </div>
-          </div>
-        </section>
+                effective and stay ahead in my role."/>
+        </div>
+        <div className="card2">
+          < AboutMeCard/>
+        </div>
+      
       </section>
+      <section className="abtMe_card2">
+        <div className="card3">
+          < AboutMeCard/>
+        </div>
+        
+      </section>
+      
+
+      
 
       <section>
+        
         <Footer/>
       </section>
       
