@@ -32,7 +32,7 @@ return(
    <section className={color ? 'headerSection headerSection-scroll' : "headerSection"}>
     <div className='LeftSec'>
     <div className='logo'>
-      <Link to='/'>Dev</Link>
+      <Link to='/'>Developstar</Link>
     </div>
     
     </div>
@@ -59,9 +59,9 @@ return(
     </nav>
      
       
-      <div>
+       {/* <div>
       <BsFillMoonFill size='2rem'/>
-      </div>
+      </div>  */}
 
       <div className='hamburger' onClick={handleClick}>
         {click?(<FaTimes size={20} style={{color: "#fff"}} />): <FaBars size={20} style={{color: "#fff"}} />}
