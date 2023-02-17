@@ -8,7 +8,7 @@ function Contact(){
     return(
         <div>
          <Header />
-         <HeroImg heading="Contact Me" text="Discuss your project with me"/>
+         <HeroImg heading="" text=""/>
          <SignUp/>
          <Footer />
         </div>
