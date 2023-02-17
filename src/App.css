@@ -24,7 +24,7 @@ a{
 .headerSection{
     display: flex;
     flex-direction: row;
-    background: #263238  ;
+    background: #419cda  ;
     position: fixed;
     top: 0;
     width: 100%;
@@ -91,15 +91,12 @@ a{
 }
 
 .HomePageWrapper{
-    border: 1px solid red;
+  
     margin-top:5rem;
     margin-left:2rem;
     position: relative;
     margin-right: 2rem;
     height: 100vh;
-    
-    
-
 }
 
 .socialMediaIcons{
@@ -114,31 +111,53 @@ a{
 }
 
 .HomePage{
-    border: 1px solid red;
+    
     width: 80%;
     margin: auto;
     margin-top: 10rem;
     padding: 0;
     position: relative;
     
-   
+}
+
+.HomePage{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    padding: 0;
+    position: relative;
     /* background: rgb(194, 166, 166); */
 }
 
-.home__display{
+/* .home__display{
     display: flex;
     justify-content: space-between; 
     align-items: center;
     position:relative;
     gap: 1rem;
-    border: 1px solid red; 
-    
-              
+} */
+
+.home__display{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between; 
+    align-items: center;
+    position:relative;
+    gap: 1rem;
     
 }
 
 .intro{
-    border: 1px solid green;
+    border: 0.1px solid black;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.8);
+    height: 12rem;
+    width: 50rem;
+    text-align: center;   
+}
+
+.intro:hover{
+    background: radial-gradient(white, #419cda );
     
 }
 
@@ -151,40 +170,30 @@ a{
     font-size: 1.2rem;
     font-weight: 100;
     text-transform: uppercase;
+    display: none;
     
 }
 
 .my_image{
-    /* border: 1px solid blue;    */
+    
+    
+    /* background-image: linear-gradient(to left top, #419cda, white);
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3); */
 }
 
-.offerImage{
-    padding: 2rem;
-    
+.my_image img{
     
 }
 
-.offer1Content{
-    
-    background: white;
-    color: black;
-    border:1px solid black;
-    position:absolute;
-    width: 25rem;
-    margin-top: 1.5rem;
-    margin-left:1.5rem;
-    height: 70vh;
+.button:hover{
+    background-image: linear-gradient(to left top, #075183, white);
 }
 
-.offerdiv1{
-    border:1px solid black;
-    background: #79b7e0;
-    height:70vh;
-    display: flex;
-    position:relative;                  
-    
-    
-}
+
+
+
+
 
 .my_image img{
     border-radius: 50%;
@@ -203,7 +212,8 @@ a{
      flex-direction: row;
      gap: 0.2rem;
      width: 30%;
-     margin-top: 2rem;
+     margin: -1rem auto;
+     
    
 }
 
@@ -219,8 +229,21 @@ a{
     background: rgb(248, 217, 15);
     color: #222;
     border: 1px solid #fff;
-    font-weight: 600;
+    font-size: 0.6rem;
     cursor: pointer;
+}
+
+.btn {
+        
+    
+    width: 12rem;
+    background: rgb(248, 217, 15);
+    color: #222;
+    border: 1px solid #fff;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0.6rem;
+    margin: auto;
 }
 
 .btn-light {
@@ -254,7 +277,7 @@ a{
     gap: 1rem;
 }
 
-.AboutMe{
+/* .AboutMe{
     border: 1px solid red;
     width: 80%;
     margin: auto;
@@ -263,17 +286,9 @@ a{
     display: flex;
     flex-direction: row;
     height: 30rem;        
-}
+} */
 
-.what_offer1{
-    width: 80%;
-    /* border: 1px solid red;   */
-    margin: auto;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    
-}
+
 
 .graphics{
    
@@ -292,41 +307,50 @@ a{
    
 }
 
-.Offer{
-    /* background: #263238; */
-    color: white;
-    display: flex;
-    flex-direction: row;
-    
-}
-
-
-
 .abtMe_card{
     display: flex;
-    
-    justify-content: space-between;
-    
+    justify-content: space-around;
     
 }
+.abtMe-div{
+    border: 1px solid black;
+    height: 20rem;
+    width: 22rem;
+    background: #f0ecec;
+    text-align: center;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+   }
+
+.abtMe_section{
+    margin-bottom: 1rem;
+}
+
+
 
 .card1{
-    margin-left: 7rem;
+    
 }
 
 .card2{
-    margin-right: 14rem;
-}
-.abtMe_card2{
     
-    border: 1px solid red;
-    margin-top: 6rem;
 }
 
 .card3{
-    display: flex;
-    justify-content: center;
     
+    
+}
+
+.cvButton{
+    width: 5rem;
+    margin: auto;
+    
+    
+}
+
+.cvButton .cvbtn{
+    margin: auto;
 }
 
 .objectSec{
@@ -389,8 +413,249 @@ p{
 }
 
 
+/* Mobile*/
 
-@media (min-width: 0) and (max-width: 640px) {
+@media (min-width: 320px) and (max-width: 480px){
+
+    html{
+        width: 100%;
+    }
+
+    body{
+        width: 100%;
+        background: ;
+    }
+
+    .logo{
+        font-size: 1.5rem;
+    }
+
+    .LeftSec{
+        margin-left: 1.4rem;
+    }
+
+    .RightSect{
+        margin-right: 1.4rem;
+    }
+
+   
+
+    .navLinks{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: -3;
+        transition: 0.3s;
+    }
+
+    .navLinks.active{
+        left: 0;
+    }
+
+    .navLinks li{
+        padding: 1rem 0;
+    }
+
+    .navLinks li a{
+        font-size: 2rem;
+    }
+
+    .hamburger{
+        display: initial;
+    }
+
+    .Home{
+        height: 120vh;
+        background: white;
+        color: black;  
+        background: url("./Images/smearing-bright-blue-paint.jpg");
+        background-size: contain;
+        background-position-x: -30vw;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-top: 5rem;
+    }
+
+    .home__display{
+        margin-top: 1rem;
+       
+    }
+    .my_image{
+        
+        margin-left: 2.5rem;
+        
+    }
+
+    
+
+    .my_image img{
+        border-radius: 50%;
+        width: 9rem;
+        height: 9rem; 
+        
+    }
+
+    .intro{
+        border: 1px solid black;
+        border-radius: 1rem;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.8);
+        height: 9rem;
+        width: 16rem;   
+    }
+
+    .intro:hover{
+        background: radial-gradient(white, #419cda );
+        
+    }
+    
+    .intro h1{
+        font-size: 1.2rem;
+        padding: 0.6rem 0 1.5rem;
+        text-align: center;
+    }
+
+    .intro p{
+        font-size: 0.8rem;
+        display: none;
+        text-transform: uppercase;
+        text-align: center;
+        
+    }
+
+    .button{
+        bottom: 5.3rem;
+        left: 5rem;   
+        display: flex;
+        gap: 0.7rem;
+        width: 5rem;
+        
+        /* margin-top: 1rem;*/
+        margin-left: 0.4rem; 
+        margin-top: -1rem;
+       
+    }
+
+    .btn {
+        
+        font-size: 0.6rem;
+        width: 12rem;
+        background: rgb(248, 217, 15);
+        color: #222;
+        border: 1px solid #fff;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 0.4rem;
+        margin: auto;
+    }
+    
+    .btn-light {
+        background: black;
+        color: #fff;
+    }
+    
+    .btn:hover{
+        background: rgba(255, 255, 255, 0.2);
+        color: #fff;
+        transition: 0.3s;
+    }
+    
+
+    .socialMediaIcons{
+        /* position: absolute;
+        bottom: 6rem;
+        right: 0; */
+        /* display: none; */
+        top: 3rem;
+        right: -0.5rem;
+    }
+
+    .home__display{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between; 
+        align-items: center;
+        position:relative;
+        gap: 1rem;
+        
+    }
+
+    .HomePage{
+        
+        width: 80%;
+        height: 100vh;
+        margin: auto;
+        padding: 0;
+        position: relative;
+        /* background: rgb(194, 166, 166); */
+    }
+
+    .my_image img{
+        border-radius: 50%;
+        width: 15rem;
+        height: 15rem;  
+    }
+
+
+    .HomePageWrapper{
+       
+        margin-top:5rem;
+        margin-left:2rem;
+        position: relative;
+        margin-right: 2rem;
+        height: 100vh;
+       }
+
+   /* Aboutme section(Home page) */
+   
+   
+   
+   
+
+   
+
+   
+
+   .abtMe_card{
+    display: none;
+   }
+
+   .abtMe_card2{
+    margin-top: 5rem;
+    margin-right: 4rem;
+   }
+
+   .what_offer1{
+    border: 1px solid brown;
+   }
+
+   
+   
+
+
+    .footer-container{
+        grid-template-columns: 1fr;
+        
+    }
+
+    .signup_page_content{
+        display: none;
+    }
+}
+
+
+/* Ipad,Tablets*/
+
+@media (min-width: 481px) and (max-width: 768px){
+
+    body{
+        
+    }
     .navLinks{
         flex-direction: column;
         justify-content: center;
@@ -476,6 +741,19 @@ p{
         
     }
 
-   
-   
 }
+
+
+/* Small Screens & Laptops*/
+
+@media (min-width: 769px) and (max-width: 1024px){
+    
+}
+
+
+/* Desktop & Large Screens*/
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    
+}
+

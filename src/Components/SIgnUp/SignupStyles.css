@@ -4,37 +4,42 @@
     flex-direction: row;
     justify-content: center;
     height: 100vh;
-    background: black;
+    background: white;
 }
 
 .signup_page_content{
    
     width: 50%;
-    background: #03001C;
+    background: #419cda;
     color: white;
     height: 82vh;
-    margin-top: 18vh;
+    margin-top: 0vh;
     margin-left: 4rem;
     text-align: center;
-   
+    
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 .signup_page_content h1{
     margin-top: 1rem;
+    
 }
 
 .signup_gif img{
     width: 20rem;
+    
 }
 
 
 .signup_form_wrapper{
-    border: 1px solid green;
+    
     width: 35%;
     height: 82vh;
-    margin-top: 18vh;
+    margin-top: 0vh;
     margin-right: 4rem;
     background: white;
+    
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.8);
     
 }
 
@@ -106,4 +111,17 @@ button:hover{
 
 input:focus{
     outline: none;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    .signup_form_wrapper{
+        border: 1px solid green;
+        width: 80%;
+        height: 95vh;
+        margin:  auto;
+        
+        background: white;
+        
+    }
 }
