@@ -1,3 +1,46 @@
+.skills_section{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.technical_skills{
+    display: flex;
+    justify-content: space-around;
+}
+
 .row1{
     display: flex;
+    justify-content: space-between;
+    gap: 12rem;
+    
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    gap: 12rem;
+    
+}
+
+.skillsdiv{
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+}
+
+.skillsdiv img{
+    width: 7rem;
+    height: 7rem;
+}
+
+.big img{
+    width: 6rem;
+    height: 6rem;
+    margin-top: 1rem;
+}
+
+.skilltext{
+    border: 1px solid red;
+    text-align: center;
 }
