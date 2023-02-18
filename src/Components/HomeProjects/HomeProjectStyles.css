@@ -1,0 +1,47 @@
+.main-wrapper{
+    width: 80%;
+    background: radial-gradient(white, #419cda );
+    height: 90vh;
+    margin: 5rem auto;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.protitle h2{
+    padding: 2rem;
+}
+
+.project-item{
+    width: 50%;
+    height: 80vh;
+    /* background: rgb(179, 175, 175); */
+    border-radius: 2rem;
+    margin: -4rem auto;
+}
+
+
+
+.homeprojecti_image image{
+    height: 5rem;
+}
+
+.projectsbutton{
+    margin-top: -3rem;
+}
+
+
+.next, .prev{
+    
+    
+        text-transform: uppercase;
+        font-size: 0.7rem;    
+        padding: 12px 32px;
+        width: 8rem;
+        background: rgb(248, 217, 15);
+        color: #222;
+        border: 1px solid #fff;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 0.6rem;
+        margin: auto;   
+}

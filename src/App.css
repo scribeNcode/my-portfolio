@@ -88,6 +88,7 @@ a{
     background-attachment: fixed;
     background-position-x: -130%;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .HomePageWrapper{
@@ -108,6 +109,13 @@ a{
 
 .socialMediaIcons p {
     margin-bottom: 2rem;
+}
+
+.heroInfo{
+    position: absolute;
+    top: 0;
+    right: 30%;
+    margin-top: -5rem;
 }
 
 .HomePage{
@@ -221,21 +229,10 @@ a{
     
 }
 
-
 .btn {
-    padding: 12px 32px;
-    font-size: 1rem;
     text-transform: uppercase;
-    background: rgb(248, 217, 15);
-    color: #222;
-    border: 1px solid #fff;
-    font-size: 0.6rem;
-    cursor: pointer;
-}
-
-.btn {
-        
-    
+    font-size: 0.7rem;    
+    padding: 12px 32px;
     width: 12rem;
     background: rgb(248, 217, 15);
     color: #222;
