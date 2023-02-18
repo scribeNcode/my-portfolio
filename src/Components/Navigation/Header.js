@@ -32,7 +32,7 @@ return(
    <section className={color ? 'headerSection headerSection-scroll' : "headerSection"}>
     <div className='LeftSec'>
     <div className='logo'>
-      <Link to='/'>Developstar</Link>
+      <Link style={{textDecoration: "none"}} to='/'>Developstar</Link>
     </div>
     
     </div>
