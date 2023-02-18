@@ -10,11 +10,17 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLeanpub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Technicalskills from "../Components/TechnicalSkillls/Technicalskills"
+import HomeProjects from "../Components/HomeProjects/HomeProjects";
+import Hero from "../Components/Homehero/Hero";
 
 function Home() {
   return (
     <section className="Home">
       <Header />
+      <div className="heroInfo">
+        <Hero />
+      </div>
+      
       <div className="HomePageWrapper">
         <div className="socialMediaIcons">
           <p>
@@ -79,7 +85,9 @@ function Home() {
           Projects
         </Link>
       </div>
+      
       <section>
+        <HomeProjects />
         <Technicalskills/>
       </section>
       <section>
