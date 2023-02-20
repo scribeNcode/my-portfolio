@@ -55,3 +55,16 @@
         border-radius: 0.6rem;
         margin: auto;   
 }
+
+
+
+@media (min-width : 320px) and (max-width:480px){
+    .main-wrapper{
+       
+    }
+
+    .homeprojecti_image{
+        margin-left: -4.4rem;
+        
+    }
+}

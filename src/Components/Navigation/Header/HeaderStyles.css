@@ -1,0 +1,84 @@
+/* Header section */
+.headerSection{
+    display: flex;
+    flex-direction: row;
+    background: #419cda  ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-decoration: none;
+    color: whitesmoke;
+    /* align-items: center;*/
+    justify-content: space-between; 
+    height: 5rem;
+    z-index: 1; 
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.headerSection-scroll{
+    background-color: rgba(0, 0, 0, 0.85);
+    transition: 0.5s;
+}
+
+.logo{
+    
+    
+}
+
+.website_logo{
+    background: url("/src/Images/My_Logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 55%;
+    width: 18rem;
+    height: 4rem;
+}
+
+.navLinks{
+    display: flex;
+    margin-right: 1rem;
+    gap: 1.5rem;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.navLinks li{
+    padding: 0 1rem;
+}
+
+
+.navLinks li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+}
+
+.hamburger{
+    display: none;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    .logo{
+        
+        border: 1px solid red;
+    }
+    
+    .website_logo{
+        background: url("/src/Images/My_Logo.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 55%;
+        width: 10rem;
+        height: 5rem;
+    }
+
+    .headerSection{
+        border: 1px solid red;
+
+    }
+}
