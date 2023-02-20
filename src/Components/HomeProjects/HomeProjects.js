@@ -1,8 +1,9 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "../HomeProjects/HomeProjectStyles.css";
-import  project1 from "../ProjectImage/functional_calculator.png" 
-import  project2 from  "../ProjectImage/Github_fetcher.png"
+
+import  mobilepro1 from "../ProjectImage/functional_calculator_resized.jpg" 
+import  project2 from  "../ProjectImage/Github_fetcher_resized.jpg"
 
 export default function HomeProjects() {
   //State
@@ -18,7 +19,7 @@ export default function HomeProjects() {
       {
         title: "A functional Calculator",
         description: "A functional calculator built with JavaScript can perform basic arithmetic operations such as addition, subtraction, multiplication, and division.",
-        image: <img src={project1} alt='project' />
+        image: <img src={mobilepro1} alt='project' />
       },
       {
         title: "Github Repository Fetcher",
