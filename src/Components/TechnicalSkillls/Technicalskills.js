@@ -15,7 +15,7 @@ export default function Technicalskills() {
     <section className="skills_section">
       <h1>Technical Skills</h1>
       <section className="UsingSkill">
-        <p>Currently Using</p>
+        <h3>Currently Using</h3>
         <section className="technical_skills">
           <div className="col1">
             <div className="skillsdiv">
@@ -66,7 +66,7 @@ export default function Technicalskills() {
       </section>
 
       <section className="LearningSkill ">
-        <h5>Learning</h5>
+        <h3>Learning</h3>
         <section className="technical_skills">
           <div className="col1">
             <div className="skillsdiv">
