@@ -7,13 +7,7 @@ function Footer(){
         <div className='footer'>
             <div className='footer-container'>
                 <div className='left-footer'>
-                    <div className='location'>
-                        <FaHome size={20} style={{color:"black", marginRight: "2rem"}}/>
-                        <div>
-                            <h4>Lagos</h4>
-                            <h4>Nigeria</h4>
-                        </div>
-                    </div>
+                    
                     <div className='phone'>
                         <h4><FaPhone size={20} style={{color:"black", marginRight:"2rem"}} />
                         +2349064457903</h4>
