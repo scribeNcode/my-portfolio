@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import "../Components/ProjectsecStyles.css"
-import Project1 from "./ProjectImage/functional_calculator.png"
+import Project1 from "./ProjectImage/functional_calculator_resized.jpg"
 
 export default function Projectsec(prop) {
   return (
