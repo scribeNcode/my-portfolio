@@ -1,8 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "../HomeProjects/HomeProjectStyles.css";
-import  project1 from "../ProjectImage/pro1.png"
-import  project2 from  "../ProjectImage/pro2.png"
+import  project1 from "../ProjectImage/functional_calculator.png" 
+import  project2 from  "../ProjectImage/Github_fetcher.png"
 
 export default function HomeProjects() {
   //State
@@ -16,20 +16,20 @@ export default function HomeProjects() {
     //list of projects
     const proItems = [
       {
-        title: "Github Repository Fetcher",
-        description: "The GitHub Repository Fetcher is a dynamic web application built with React that allows users to fetch their GitHub repositories by entering their username. The website features a custom counter hook with increment, decrement, reset, and setValue functions .  The website  a page for the custom hook, useReducer, a 404 error page, and a page to test error boundaries and ensure good SEO. ",
+        title: "A functional Calculator",
+        description: "A functional calculator built with JavaScript can perform basic arithmetic operations such as addition, subtraction, multiplication, and division.",
         image: <img src={project1} alt='project' />
       },
       {
-        title: "Project 2",
-        description: "This is project two",
+        title: "Github Repository Fetcher",
+        description: "This GitHub Repository Fetcher is a dynamic web application built with React that allows users to fetch their GitHub repositories by entering their username. The website features a custom counter hook with increment, decrement, reset, and setValue functions .",
         image: <img src={project2} alt='project' />
-      },
-      {
-        title: "Project 3",
-        description: "This is project three",
-        url: "goal.com",
-      },
+      }
+      // {
+      //   title: "Project 3",
+      //   description: "This is project three",
+      //   url: "goal.com",
+      // },
     ];
     const item = proItems[currentPosition];
 
@@ -67,10 +67,11 @@ export default function HomeProjects() {
 
   return (
     <section className="main-wrapper">
-      <section>
-        <div className="protitle">
-          <h2>My Projects</h2>
+      <div className="protitle">
+          <h2> Projects Preview</h2>
         </div>
+      <section className="component-wrapper">
+        
         <section className="projects-container">
           {loading ? (
             <div>Loading</div>
