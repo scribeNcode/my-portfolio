@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 
 
 
+
 function Header(){
 
   // for transparent header background 
@@ -32,7 +33,11 @@ return(
    <section className={color ? 'headerSection headerSection-scroll' : "headerSection"}>
     <div className='LeftSec'>
     <div className='logo'>
-      <Link style={{textDecoration: "none"}} to='/'>Developstar</Link>
+      <Link style={{textDecoration: "none"}} to='/' className='logoLink'>
+        <div className='website_logo'>
+
+        </div>
+      </Link>
     </div>
     
     </div>
@@ -45,7 +50,7 @@ return(
 
       <ul className={click ? 'navLinks active' : 'navLinks'}>
         <li>
-        <Link to="/about">About</Link>
+        <Link to="/">Home</Link>
       </li>
       <li>
         <Link to= '/works'>Work</Link>
