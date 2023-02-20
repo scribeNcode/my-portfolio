@@ -1,12 +1,12 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import "../Components/ProjectsecStyles.css"
-import Project1 from "./ProjectImage/Project1.png"
+import Project1 from "./ProjectImage/functional_calculator.png"
 
 export default function Projectsec(prop) {
   return (
     <div className='projectPage_container'>
-        <h1 className='project_heading'>Projects</h1>
+        <h3 className='project_heading'>Projects</h3>
         <div className='project_container'>
             <div className='project-image'>
                 <img src={Project1} alt='' />
