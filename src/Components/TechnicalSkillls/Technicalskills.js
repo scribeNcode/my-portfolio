@@ -24,24 +24,26 @@ export default function Technicalskills() {
                 <h5>HTML5</h5>
               </div>
             </div>
-            <div className="skillsdiv big">
+            <div className="skillsdiv ">
               <img src={css} alt="css image" />
               <div className="skilltext">
                 <h5>CSS3</h5>
               </div>
             </div>
-          </div>
 
-          <div className="skillsdiv ">
+            <div className="skillsdiv ">
             <img src={js} alt="js image" />
             <div className="skilltext">
               <h5>JavaScript</h5>
             </div>
           </div>
+          </div>
+
+          
         </section>
 
         <section className="technical_skills row2">
-          <div className="col1">
+          <div className="col1 col1-2">
             <div className="skillsdiv">
               <img src={figma} alt="figma image" />
               <div className="skilltext">
@@ -54,43 +56,45 @@ export default function Technicalskills() {
                 <h5>Git</h5>
               </div>
             </div>
-          </div>
-
-          <div className="skillsdiv ">
+            <div className="skillsdiv ">
             <img src={react} alt="react image" />
             <div className="skilltext">
               <h5>React</h5>
             </div>
           </div>
+          </div>
+
+          
         </section>
       </section>
 
       <section className="LearningSkill ">
         <h3>Learning</h3>
         <section className="technical_skills">
-          <div className="col1">
+          <div className="col1 col1-row ">
             <div className="skillsdiv">
               <img src={sass} alt="sass image" />
               <div className="skilltext">
                 <h5>SASS</h5>
               </div>
             </div>
-            <div className="skillsdiv big">
+            <div className="skillsdiv">
               <img src={vue} alt="vue image" />
               <div className="skilltext">
                 <h5>Vue</h5>
               </div>
             </div>
-          </div>
 
-          <div className="col2">
+            
             <div className="skillsdiv ">
               <img src={ts} alt="ts image" />
               <div className="skilltext">
                 <h5>TYPESCRIPT</h5>
               </div>
             </div>
+          
           </div>
+
         </section>
       </section>
     </section>
