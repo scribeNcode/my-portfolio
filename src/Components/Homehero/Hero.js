@@ -3,7 +3,7 @@ import {useTypewriter, Cursor} from 'react-simple-typewriter'
 import "../Homehero/HeroStyles.css"
 export default function Hero() {
   const [text] = useTypewriter({
-    words: ['Welcome to my portfolio website! It\'s a pleasure to have you here.', 'I enjoy designing visually appealing and responsive user interfaces.' ],
+    words: ['Welcome to my portfolio website! It\'s a pleasure to have you here.', 'I enjoy building visually appealing and responsive user interfaces.' ],
     loop: 1,
   });
   return (
