@@ -9,11 +9,7 @@
 
 
 body{
-    background: url('./Images/smearing-bright-blue-paint.jpg');
-    background-size: contain;
-    background-attachment: fixed;
-    background-position-x: -120%;
-    background-repeat: no-repeat;
+    
 }
 
 a{
@@ -50,6 +46,15 @@ a{
     align-items: center;
     justify-content: space-between;
     
+}
+
+.website_logo{
+    background: url("./Images/My_Logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 55%;
+    width: 18rem;
+    height: 4rem;
 }
 
 .navLinks{
@@ -105,9 +110,10 @@ a{
     bottom: 6rem;
     right: 0;
     
+    
 }
 
-.socialMediaIcons p {
+.socialMediaIcons a {
     margin-bottom: 2rem;
 }
 
@@ -244,12 +250,14 @@ a{
 }
 
 .btn-light {
-    background: black;
+    background: rgb(231, 61, 61);
     color: #fff;
 }
 
+
+
 .btn:hover{
-    background: rgba(255, 255, 255, 0.2);
+    background: black;
     color: #fff;
     transition: 0.3s;
 }
@@ -259,7 +267,7 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    border:1px solid red;
+   
     margin-left: 2rem;
     justify-content: space-between;
 }
@@ -269,7 +277,7 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 1px solid red;
+    
     margin-right: 2rem;
     gap: 1rem;
 }
@@ -304,25 +312,21 @@ a{
    
 }
 
+.Abtme_homesection{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.Abtme_homesection_heading{
+    margin-bottom: 2rem;
+}
+
 .abtMe_card{
     display: flex;
     justify-content: space-around;
     
 }
-.abtMe-div{
-    border: 1px solid black;
-    height: 20rem;
-    width: 22rem;
-    background: #f0ecec;
-    text-align: center;
-    padding: 3rem;
-    border-radius: 1rem;
-    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
-   }
 
-.abtMe_section{
-    margin-bottom: 1rem;
-}
 
 
 
@@ -340,14 +344,16 @@ a{
 }
 
 .cvButton{
-    width: 5rem;
-    margin: auto;
+    width: 8rem;
+    margin: 1rem auto;
     
     
 }
 
 .cvButton .cvbtn{
     margin: auto;
+    
+
 }
 
 .objectSec{
@@ -359,8 +365,8 @@ a{
 
 .footer{
     width: 100%;
-    padding: 6rem 0;
-    background: rgba(19, 19, 19, 0.8);
+    
+    background: #419cda;
 }
 
 .footer-container{
