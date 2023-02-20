@@ -1,7 +1,7 @@
 
 import React from "react";
 import Footer from "../Components/Navigation/Footer";
-import Header from "../Components/Navigation/Header";
+import Header from "../Components/Navigation/Header/Header";
 import HeroImg from "../Components/Heroimage"
 import Projectsec from "../Components/Projectsec";
 
