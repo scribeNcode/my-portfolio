@@ -1,13 +1,10 @@
 import React from "react";
 import Header from "../../Components/Navigation/Header/Header";
-import Footer from "../../Components/Navigation/Footer";
+import Footer from "../../Components/Navigation/Footer/Footer";
 import image from "../../Images/myImage.png";
 import "../Home/HomeStyles.css"
 import AboutMeCard from "../../Components/AboutMeCard/AboutMeCard";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaLeanpub } from "react-icons/fa";
+
 import { Link } from "react-router-dom";
 import Technicalskills from "../../Components/TechnicalSkillls/Technicalskills";
 import HomeProjects from "../../Components/HomeProjects/HomeProjects";
@@ -28,32 +25,7 @@ function Home() {
       </div>
 
       <div className="HomePageWrapper">
-        <div className="socialMediaIcons">
-          <div>
-             <a href="https://github.com/Developstar" >
-            <FaGithub color="black"/>
-          </a>
-          </div>
-         
-         <div>
-          <a href="https://www.linkedin.com/in/boluwatifeadeyeye" >
-            <FaLinkedin color="black" />
-          </a>
-         </div>
-          
-          <div>
-            <a href="https://twitter.com/Devilopstar" >
-            <FaTwitter  color="black"/>
-          </a>
-          </div>
-          
-          <div>
-            <a href="https://developstar.hashnode.dev" >
-            <FaLeanpub color="black"/>
-          </a>
-          </div>
-          
-        </div>
+        
         <section className="HomePage">
           <div className="home__display">
             <div className="intro">
