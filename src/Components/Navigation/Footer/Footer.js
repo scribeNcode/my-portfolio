@@ -35,31 +35,28 @@ function Footer() {
           </div>
         </div>
         <div className="right-footer">
-          <p>
-            You can get across to me via the following social media platforms
-          </p>
           <div className="socialMediaIcons">
-            <div>
+            <div className="icon-div">
               <a href="https://github.com/Developstar">
-                <FaGithub color="black" />
+                <FaGithub color="black" size="2rem" className="git" />
               </a>
             </div>
 
-            <div>
+            <div className="icon-div">
               <a href="https://www.linkedin.com/in/boluwatifeadeyeye">
-                <FaLinkedin color="black" />
+                <FaLinkedin color="black" size="2rem" className="linkedin" />
               </a>
             </div>
 
-            <div>
+            <div className="icon-div">
               <a href="https://twitter.com/Devilopstar">
-                <FaTwitter color="black" />
+                <FaTwitter color="black" size="2rem" className="twitter"/>
               </a>
             </div>
 
-            <div>
+            <div className="icon-div">
               <a href="https://developstar.hashnode.dev">
-                <FaLeanpub color="black" />
+                <FaLeanpub color="black" size="2rem" className="hashnode"/>
               </a>
             </div>
           </div>
