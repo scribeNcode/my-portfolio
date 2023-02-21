@@ -1,8 +1,44 @@
 .socialMediaIcons {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
     bottom: 6rem;
     right: 0;
   }
   
   .socialMediaIcons a {
     margin-bottom: 2rem;
+  }
+
+  .icon-div{
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    background: whitesmoke;
+    
+  }
+
+  .icon-div .git{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .icon-div .linkedin{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .icon-div .twitter{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .icon-div .hashnode{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .icon-div a{
+    
+    
   }
