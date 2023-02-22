@@ -95,9 +95,7 @@
 }
 
 
-.button:hover {
-  background-image: linear-gradient(to left top, #075183, white);
-}
+
 
 .my_image img {
   border-radius: 50%;
@@ -199,9 +197,9 @@
     left: 5rem;
     display: flex;
     gap: 0.7rem;
-    width: 5rem;
+    width: 8rem;
 
-    /* margin-top: 1rem;*/
+    margin-top: -1.5rem;
     
   }
 
@@ -225,6 +223,12 @@
     color: #fff;
     padding: 8px 8px;
     
+    
+}
+
+.btn-light:hover {
+  background: black;
+  color: #fff;
 }
 
   .btn:hover {
