@@ -9,10 +9,10 @@
 
 .signup_page_content{
    
-    width: 50%;
+    width: 40%;
     background: #419cda;
     color: white;
-    height: 82vh;
+    height: 70vh;
     margin-top: 0vh;
     margin-left: 4rem;
     text-align: center;
@@ -25,6 +25,11 @@
     
 }
 
+.signup_gif{
+    width:;
+}
+
+
 .signup_gif img{
     width: 20rem;
     
@@ -33,13 +38,11 @@
 
 .signup_form_wrapper{
     
-    width: 35%;
+    width: 40%;
     height: 82vh;
     margin-top: 0vh;
     margin-right: 4rem;
     background: white;
-    
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.8);
     
 }
 
@@ -47,8 +50,9 @@ form{
     
     width: 80%;
     margin: 1.5rem auto;
-    background: white;
+    /* background: green; */
     height: 70vh;
+
     
      
 }
@@ -74,39 +78,25 @@ form{
 
  input{
    padding: 0.4rem 1.5rem ; 
-   border-radius: 0.4rem;
+   border-radius: 0.3rem;
    margin-bottom: 0.9rem;
-   border: 1px solid #03001C;
+   border: 1px solid #419cda;
+   width: 100%;
+   height: 3rem;
+   
 }
 
-
-select{
-    padding: 0.4rem 1.5rem ;
-    border-radius: 0.3rem;
-    margin-bottom: 0.5rem;
-    border: 1px solid #03001C;
-    
-
-}
-
-.form_button{
-    padding: 0.5rem 1.5rem ; 
-    border-radius: 0.3rem;
-    margin-top: 0.5rem;
+textarea{
     width: 100%;
-    border: none;
-    background: #222031;
-    color: white;
-    cursor: pointer;
-    font-size: medium;
-    transition: 0.3s;
+    border: 1px solid #419cda;
+    outline: none;
+    height: 10.5rem;
+    padding: 1rem;
+    padding-left: 1.5rem;
 }
 
-button:hover{
-    background: #03001C;
-    color: white;
-    
-
+.form_submit_wrapper{
+    margin-top: 1rem;
 }
 
 input:focus{
@@ -116,7 +106,6 @@ input:focus{
 
 @media (min-width: 320px) and (max-width: 480px){
     .signup_form_wrapper{
-        border: 1px solid green;
         width: 80%;
         height: 95vh;
         margin:  auto;
