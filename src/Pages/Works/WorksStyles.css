@@ -1,0 +1,20 @@
+ .project_heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+
+} 
+
+
+.Works_container{
+    width: 100%;
+}
+
+.projectSection{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background: green; */
+    gap: 10rem;
+    
+}
