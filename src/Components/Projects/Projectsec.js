@@ -1,27 +1,54 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-import "../Projects/ProjectsecStyles.css"
-import Project1 from "../ProjectImage/functional_calculator_resized.jpg"
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import "../Projects/ProjectsecStyles.css";
+import Project1 from "../ProjectImage/functional_calculator_resized.jpg";
 
 export default function Projectsec(prop) {
+  const [hovered, setHovered] = useState(false);
   return (
-    <div className='projectPage_container'>
-        <h3 className='project_heading'>Projects</h3>
-        <div className='project_container'>
-            <div className='project-image'>
-                <img src={Project1} alt='' />
-                <h2 className='project-title'>{prop.projectTitle}</h2>
-                <div className='project_details'>
-                  <p>This is a text</p>
-                  <div className='pro-btns'>
-                    <NavLink to= "http://exam-gamma.vercel.app"
-                    className="btn">View</NavLink>
-                    <NavLink to= "http://exam-gamma.vercel.app"
-                    className="btn">Source</NavLink>
-                  </div>
-                </div>
+    <section style={{ width: "100%" }} className="wrapper">
+      <div
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+      >
+        {hovered ? (
+          <div className="projectPage_container ">
+            <div className="active">
+              <div className="project_container">
+                <div className="active_overlay"></div>
+              </div>
             </div>
-        </div>
-    </div>
-  )
+          </div>
+        ) : (
+          <div className="projectPage_container ">
+            <div className="not_active">
+              <div className="project_container">
+                <div className="project_details"></div>
+              </div>
+            </div>
+            <div className="content">
+              <div className="content_text">
+                <h2 className="project-title">{prop.projectTitle}</h2>
+                <p>{prop.projectDetails}</p>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+      <div className="pro-btns">
+        <a
+          href="https://functional-calculator-using-react-alt-school-assignment-03.vercel.app/"
+          className="btn"
+        >
+          Live Project
+        </a>
+        <a
+          href="https://github.com/Developstar/Functional-calculator-using-react-Alt_School-Assignment-03"
+          className="btn"
+        >
+          Code on Github
+        </a>
+      </div>
+    </section>
+  );
 }
