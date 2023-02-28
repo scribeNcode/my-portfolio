@@ -13,7 +13,7 @@
 }
 
 .HomePageWrapper {
-  margin-top: 5rem;
+  margin-top: rem;
   margin-left: 2rem;
   position: relative;
   margin-right: 2rem;
@@ -23,10 +23,10 @@
 
 
 .heroInfo {
-  position: absolute;
-  top: 0;
-  right: 30%;
-  margin-top: -5rem;
+  text-align: center;
+ 
+  margin-top: 4rem;
+  
 }
 
 .HomePage {
@@ -41,6 +41,8 @@
   width: 80%;
   height: 100vh;
   margin: auto;
+ 
+ 
   padding: 0;
   position: relative;
   /* background: rgb(194, 166, 166); */
@@ -55,8 +57,7 @@
 } */
 
 .home__display {
-  display: flex;
-  flex-direction: column-reverse;
+  
   justify-content: space-between;
   align-items: center;
   position: relative;
@@ -65,9 +66,9 @@
 
 .intro {
   border: 0.1px solid black;
-  border-radius: 1rem;
+  
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.8);
-  height: 12rem;
+  height: 17rem;
   width: 50rem;
   text-align: center;
 }
@@ -81,17 +82,30 @@
   padding: 0.6rem 0 1.5rem;
 }
 
+.intro h5{
+  margin-top: -1.5rem;
+  margin-bottom: 3rem;
+}
+
 .intro p {
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 300;
   text-transform: uppercase;
-  display: none;
+  margin-bottom: 1rem;
+  margin-top: -2rem;
+
 }
 
 .my_image {
-  /* background-image: linear-gradient(to left top, #419cda, white);
-    border-radius: 1rem;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3); */
+   background-image: linear-gradient(to left top, #419cda, white);
+   border-radius: 50%;
+   height: 5rem;
+   width: 5rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3); 
+    position: absolute;
+    top: 2%;
+    left: 24%;
+    
 }
 
 
@@ -99,8 +113,23 @@
 
 .my_image img {
   border-radius: 50%;
-  width: 20rem;
-  height: 20rem;
+  width: 5rem;
+  height: 5rem;
+}
+
+.Abtme_homesection {
+  text-align: center;
+  margin-top: 10vh;
+  
+}
+
+.Abtme_homesection_heading {
+  margin-bottom: 2rem;
+}
+.abtMe_card {
+  /* display: flex;
+  justify-content: space-around; */
+  width: 60%;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {

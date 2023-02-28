@@ -8,7 +8,8 @@ html, body{
 
 .skills_section{
     text-align: center;
-    margin: 3rem auto;
+    margin: auto;
+    margin-top: -10rem;
     width: 80%;
 
 }

@@ -6,6 +6,10 @@
   font-family: "Oswald", sans-serif;
 }
 
+.App{
+ 
+}
+
 a {
   color: white;
 }
@@ -45,6 +49,7 @@ a {
 
 .btn:hover {
   background: black;
+  filter:drop-shadow(5px 5px 15px blue);
   color: #fff;
   transition: 0.3s;
 }
@@ -88,19 +93,9 @@ a {
 }
 
 /* HomePage (About Me Section) */
-.Abtme_homesection {
-  text-align: center;
-  margin-top: 10vh;
-}
 
-.Abtme_homesection_heading {
-  margin-bottom: 2rem;
-}
 
-.abtMe_card {
-  display: flex;
-  justify-content: space-around;
-}
+
 
 .card1 {
 }
@@ -181,7 +176,7 @@ p {
 /* Mobile*/
 
 @media (min-width: 320px) and (max-width: 480px) {
-  html {
+   html {
     width: 100%;
   }
 
@@ -237,7 +232,7 @@ p {
   .signup_page_content {
     display: none;
   }
-}
+} 
 
 /* Ipad,Tablets*/
 
