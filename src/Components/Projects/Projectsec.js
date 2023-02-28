@@ -10,10 +10,11 @@ export default function Projectsec(prop) {
       <div
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
+        className="content-divv"
       >
         {hovered ? (
           <div className="projectPage_container ">
-            <div className="active">
+            <div className="onHover">
               <div className="project_container">
                 <div className="active_overlay"></div>
               </div>
@@ -21,7 +22,7 @@ export default function Projectsec(prop) {
           </div>
         ) : (
           <div className="projectPage_container ">
-            <div className="not_active">
+            <div className="notOnHover">
               <div className="project_container">
                 <div className="project_details"></div>
               </div>
