@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../Components/Navigation/Header/Header";
 import Footer from "../../Components/Navigation/Footer/Footer";
 import image from "../../Images/myImage.png";
-import "../Home/HomeStyles.css"
+import "../Home/HomeStyles.css";
 import AboutMeCard from "../../Components/AboutMeCard/AboutMeCard";
 
 import { Link } from "react-router-dom";
@@ -12,9 +12,7 @@ import Hero from "../../Components/Homehero/Hero";
 import { BsCodeSlash } from "react-icons/bs";
 import { TbWriting } from "react-icons/tb";
 import { GoBroadcast } from "react-icons/go";
-import resume from "../../Components/MyCV/Boluwatife_Adeyeye_CV.pdf"
-
-
+import resume from "../../Components/MyCV/Boluwatife_Adeyeye_CV.pdf";
 
 function Home() {
   return (
@@ -25,27 +23,31 @@ function Home() {
       </div>
 
       <div className="HomePageWrapper">
-        
         <section className="HomePage">
           <div className="home__display">
             <div className="intro">
               <h1>
-                Building Interactive and Visually appealing web interfaces
+                {/* Building Interactive and Visually appealing web interfaces */}
+                ADEYEYE BOLUWATIFE
               </h1>
+              <h5>FRONTEND DEVELOPER</h5>
               <p>
-                As a software engineer, I specialize in developing high-quality
-                and responsive mobile & web applications utilizing technologies
-                such as HTML, CSS, JavaScript, ReactJS, and VueJS.
+                I possess expertise in utilizing diverse technologies for
+                frontend development and consistently strive to enhance my
+                skills and keep up with the latest industry developments. I am
+                enthusiastic about exploring the limits of what can be achieved
+                and crafting visually impressive and practical designs
               </p>
               <div className="button">
                 <Link to="/contact" className="btn  btn-light">
                   Let's Talk
                 </Link>
               </div>
-            </div>
-            <div className="my_image">
+              <div className="my_image">
               <img src={image} alt="my" />
             </div>
+            </div>
+            
           </div>
         </section>
       </div>
@@ -80,19 +82,18 @@ function Home() {
           </div>
         </div>
         <div className="cvButton">
-        <a href={resume} download>
-         <button className="btn  btn-light" >Download CV</button>
-       </a>
-      </div>
+          <a href={resume} download>
+            <button className="btn  btn-light">Download CV</button>
+          </a>
+        </div>
       </section>
-      
 
       <section className="skillsSec">
         <div className="projects_container">
           <HomeProjects />
         </div>
         <div className="technicalSkill_cont">
-        <Technicalskills />
+          <Technicalskills />
         </div>
       </section>
       <section className="footer_section">
