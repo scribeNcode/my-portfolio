@@ -1,7 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "../HomeProjects/HomeProjectStyles.css";
-
+import js from "../TechnicalSkillls/Images/Using/js.png.png";
+import react from "../TechnicalSkillls/Images/Using/react.png";
 import  mobilepro1 from "../ProjectImage/functional_calculator_resized.jpg" 
 import  project2 from  "../ProjectImage/Github_fetcher_resized.jpg"
 
@@ -19,12 +20,15 @@ export default function HomeProjects() {
       {
         title: "A functional Calculator",
         description: "A functional calculator built with JavaScript can perform basic arithmetic operations such as addition, subtraction, multiplication, and division.",
-        image: <img src={mobilepro1} alt='project' />
+        image: <img src={mobilepro1} alt='project' />,
+        stack: <img src={js} alt="stackimg" width="25rem" />
       },
       {
         title: "Github Repository Fetcher",
         description: "This GitHub Repository Fetcher is a dynamic web application built with React that allows users to fetch their GitHub repositories by entering their username. The website features a custom counter hook with increment, decrement, reset, and setValue functions .",
-        image: <img src={project2} alt='project' />
+        image: <img src={project2} alt='project' />,
+        stack: <img src={js} alt="stackimg" width="25rem" />,
+        stack2: <img src={react} alt="stackimg" width="25rem" /> 
       }
       // {
       //   title: "Project 3",
@@ -85,7 +89,12 @@ export default function HomeProjects() {
                 
               </div>
               <h2>{projects.title}</h2>
-              <p>{projects.description}</p>
+               {/* <p>{projects.description}</p>  */}
+               <div className="stack_container">
+                <div className="stack">{projects.stack}</div>
+               <div className="stack">{projects.stack2}</div>
+               </div>
+               
               <a href={projects.url}>{projects.url}</a>
             </div>
           )}
