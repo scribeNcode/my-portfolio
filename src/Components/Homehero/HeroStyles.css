@@ -20,9 +20,9 @@
     }
     
     .initiialIntro p{
-        margin: 3rem auto ;
+        margin: 3.5rem auto ;
         color:  black ;
-        font-size: 0.8rem;
+        font-size: 0.4rem;
         font-weight: lighter;
     }
 }
