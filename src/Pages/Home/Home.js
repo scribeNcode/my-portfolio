@@ -58,34 +58,36 @@ function Home() {
             <h3>About Me</h3>
           </div>
           <div className="abtMe_card">
-            <div className="card1">
+            <div className="card">
               <AboutMeCard
-                logo={<BsCodeSlash />}
+                logo={<BsCodeSlash color="red" size="3rem"/>}
                 title="Web Development"
                 text="As a web developer, I use frameworks like React and Vue.js to create interactive web pages and web applications that align with client objectives and meet end-users' needs. Optimize website performance,navigation and work with web servers and hosting services to ensure availability and responsiveness. Application of strong problem-solving skills to troubleshoot and debug issues during the development process. "
               />
             </div>
-            <div className="card2">
+            <div className="card">
               <AboutMeCard
-                logo={<TbWriting />}
+                logo={<TbWriting color="red" size="3rem" />}
                 title="Technical Writing"
                 text="As a web development technical writer, I specialize in creating instructional materials that effectively communicate complex technical information in a clear, concise, and user-friendly manner. In this capacity, I work diligently to translate intricate frameworks and technical details into easily digestible content that is accessible to individuals with varying levels of technical expertise."
               />
             </div>
-            <div className="card3">
+            <div className="card">
               <AboutMeCard
-                logo={<GoBroadcast />}
+                logo={<GoBroadcast color="red" size="3rem"/>}
                 title="Open Source Contribution"
                 text="I love contributing to open source ! I am a maintainer for an Open source project: https://github.com/Developstar/coderay-app. By using and contributing to open source projects, I try as much as possible to stay at the forefront of new developments in the industry."
               />
             </div>
           </div>
-        </div>
-        <div className="cvButton">
+
+          <div className="cvButton">
           <a href={resume} download>
             <button className="btn  btn-light">Download CV</button>
           </a>
         </div>
+        </div>
+        
       </section>
 
       <section className="skillsSec">
