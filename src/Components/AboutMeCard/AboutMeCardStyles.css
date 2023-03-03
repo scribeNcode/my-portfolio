@@ -1,6 +1,6 @@
 .abtMe-div{
     border: 1px solid black;
-    height: 22rem;
+    height: 40rem;
     width: 100%;
     background: white;
     text-align: center;
@@ -26,7 +26,7 @@
 
     .abtMe-div{
         border: 1px solid black;
-        height: 28rem;
+        height: 20rem;
         width: 90%;
         margin: 1rem auto;
         background: #f0ecec;
@@ -34,5 +34,9 @@
         padding: 3rem;
         border-radius: 1rem;
         box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+       }
+
+       .abtMe_text p{
+        font-size: 0.5rem;
        }
 }
