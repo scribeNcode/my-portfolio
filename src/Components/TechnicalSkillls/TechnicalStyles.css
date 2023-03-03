@@ -89,9 +89,23 @@ html, body{
         margin-top: 1rem;
     }
     .skills_section{
-        /* background: green; */
+        margin-top: -7vh;
     
     }
+
+    .skills_section h1{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .UsingSkill h3{
+        margin: 3rem auto;
+    }
+    
+    .LearningSkill h3{
+        margin: 3rem auto;
+    }
+    
     
     .skillsdiv img{
         width: 3rem;
