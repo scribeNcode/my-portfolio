@@ -43,6 +43,8 @@ function Home() {
                   Let's Talk
                 </Link>
               </div>
+
+             
               <div className="my_image">
               <img src={image} alt="my" />
             </div>
