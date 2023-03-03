@@ -8,7 +8,7 @@ export default function AboutMeCard(prop) {
       <div className="abtMe-div">
         <div className="abtMe_logo">{prop.logo}</div>
         <div className="abtMe_title"><h1>{prop.title}</h1></div>
-        <div className="abtMe_text">{prop.text}</div>
+        <div className="abtMe_text"><p>{prop.text}</p></div>
       </div>
     </div>
 
