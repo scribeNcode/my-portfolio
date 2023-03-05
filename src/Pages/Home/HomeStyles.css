@@ -80,6 +80,10 @@
   padding: 1rem 0 1.5rem;
 }
 
+.intro h2{
+  margin-bottom: 1.5rem;
+}
+
 .intro h5{
   margin-top: -1.5rem;
   margin-bottom: 3rem;
@@ -127,7 +131,7 @@
 .Abtme_homesection {
   text-align: center;
   margin-top: -10rem;
-  background: #222;
+  background:  linear-gradient(to bottom, white, black);
   height: 150vh;
 }
 
@@ -138,7 +142,7 @@
 
 .Abtme_homesection_heading {
   margin-bottom: 2rem;
-  color: white;
+  color: black;
 }
 
 .Abtme_homesection_heading h3{
@@ -326,7 +330,6 @@
   .Abtme_homesection {
     text-align: center;
     margin-top: 0rem;
-    background: #222;
     height: 255vh;
   }
 
