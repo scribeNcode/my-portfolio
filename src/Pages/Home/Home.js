@@ -31,6 +31,8 @@ function Home() {
                 ADEYEYE BOLUWATIFE
               </h1>
               <h5>FRONTEND DEVELOPER</h5>
+
+              <h2>Building Scalable Digital experiences</h2>
               <p>
                 I possess expertise in utilizing diverse technologies for
                 frontend development and consistently strive to enhance my
