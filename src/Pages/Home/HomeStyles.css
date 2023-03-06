@@ -161,7 +161,7 @@
 
 .Abtme_homesection_heading h3{
   /* margin-top: 2rem; */
- font-size: 5rem;
+ font-size: 3rem;
   padding:  2rem;
 }
 
@@ -358,7 +358,7 @@
     display: flex;
     gap: 0.7rem;
     width: 5rem;
-    margin-top: -0.5rem; 
+    margin-top: -3rem; 
     width: 100%;
   }
 
