@@ -75,44 +75,52 @@
   background: radial-gradient(white, #419cda);
 } */
 
+.digital{
+  color: #e73d3d;
+}
+
 .intro h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 1rem 0 1.5rem;
+  margin-top: 10rem;
 }
 
 .intro h2{
   margin-bottom: 1.5rem;
+  color: #419cda;
 }
 
-.intro h5{
+.intro h6{
   margin-top: -1.5rem;
   margin-bottom: 3rem;
 }
 
 .intro p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 300;
-  text-transform: uppercase;
+ 
   margin-bottom: 1rem;
   margin-top: -1rem;
 
 }
 
+
+
 .my_image {
    background-image: linear-gradient(to left top, #419cda, white);
    border-radius: 50%;
-   height: 5rem;
-   width: 5rem;
+   height: 8rem;
+   width: 8rem;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3); 
     position: absolute;
-    top: -25%;
+    top: -45%;
     left: 45%;  
 }
 
 .my_image img {
   border-radius: 50%;
-  width: 5rem;
-  height: 5rem;
+  width: 8rem;
+  height: 8rem;
 }
 
 
@@ -121,17 +129,23 @@
   left: 5rem;
   display: flex;
   gap: 0.7rem;
-  width: 8rem;
+  width: 18rem;
 
   margin-top: 1rem;
   
 }
 
 
+.contact_icon{
+  position: absolute;
+}
+
+
+
 .Abtme_homesection {
   text-align: center;
-  margin-top: -10rem;
-  background:  linear-gradient(to bottom, white, black);
+  margin-top: -12rem;
+  background:  linear-gradient(to top, black, white, black);
   height: 150vh;
 }
 
@@ -142,12 +156,12 @@
 
 .Abtme_homesection_heading {
   margin-bottom: 2rem;
-  color: black;
+  color: white;
 }
 
 .Abtme_homesection_heading h3{
   /* margin-top: 2rem; */
- 
+ font-size: 5rem;
   padding:  2rem;
 }
 
@@ -163,11 +177,7 @@
   
 }
 
-.cvButton a{
-  flex-direction: column;
-  background: #075183;
-  
-}
+
 
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -176,16 +186,18 @@
   
 
   .intro {
-    margin-top: 4.3rem;
+    margin-top: -2.3rem;
     height: 17rem;
     width: 10rem;
     text-align: center;
   }
 
 
-  .intro h1 {
-    font-size: 2.5rem;
-    padding: 2rem 0 1.5rem;
+  
+
+  .intro h2{
+    margin-top: -2rem;
+    font-size: 1rem;
   }
   
   .hamburger {
@@ -240,17 +252,17 @@
   .my_image {
     
     border-radius: 50%;
-    margin-top: 5rem;
-    width: 3rem;
-    height: 3rem;
+    margin-top: 4rem;
+    width: 6rem;
+    height: 6rem;
     top: -18%;
-    left: 42%; 
+    left: 30%; 
   }
 
   .my_image img {
     border-radius: 50%;
-    width: 3rem;
-    height: 3rem;
+    width: 6rem;
+    height: 6rem;
   }
 
   .intro {
@@ -264,13 +276,14 @@
   }
 
   .intro h1 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1.6rem 0 1.5rem;
     text-align: center;
   }
 
-  .intro h5{
-    font-size: 0.6rem;
+
+  .intro h6{
+    font-size: 0.5rem;
   }
   /* .intro:hover {
     background: radial-gradient(white, #419cda);
@@ -287,18 +300,18 @@
     left: 5rem;
     display: flex;
     gap: 0.7rem;
-    width: 8rem;
-
-    margin-top: 1.5rem;
-    
+    width: 15rem;
+    margin-top: -0.5rem;
   }
+
+  
 
  
   .btn {
     text-transform: uppercase;
     font-size: 0.7rem;    
     padding: 12px 32px;
-    width: 12rem;
+    width: 15rem;
     background: rgb(248, 217, 15);
     color: #222;
     border: 1px solid #fff;
@@ -311,7 +324,7 @@
 .btn-light {
     background: rgb(231, 61, 61);
     color: #fff;
-    padding: 8px 8px;
+    padding: 12px 12px;
     
     
 }
@@ -333,11 +346,25 @@
     height: 255vh;
   }
 
-  .cvButton{
-    width: 100%;
-    
+  .Abtme_homesection_heading h3{
+    /* margin-top: 2rem; */
+   font-size: 2rem;
+    padding:  2rem;
   }
 
+  .button {
+    bottom: 5.3rem;
+    left: 5rem;
+    display: flex;
+    gap: 0.7rem;
+    width: 5rem;
+    margin-top: -0.5rem; 
+    width: 100%;
+  }
+
+  .cvbutton{
+    width: 100%;
+  }
 
   .abtMe_card {
     display: flex;
@@ -392,14 +419,13 @@
       /* Projects and skillsets section on home page */
    .skillsSec{
     width: 100%;
-    border: 1px solid red;
     margin-top: 1vh;
    }
 
 
    .footer_section{
     width: 100%;
-    border: 1px solid red;
+    
    }
 
    .heroInfo{
