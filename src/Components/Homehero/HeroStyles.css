@@ -2,6 +2,10 @@
     margin-bottom: 3rem;
 }
 
+.initiialIntro_mobile{
+    display: none;
+}
+
 .initiialIntro p{
     margin: 6rem auto ;
     color:  black ;
@@ -13,16 +17,25 @@
 @media (min-width:320px) and (max-width:480px){
 
     .initiialIntro{
-        text-align: center;
-        margin-left: ;
         
-        width:90%;
+        display: none;
+    }
+
+    .initiialIntro_mobile{
+        display: block;
+         text-align: center;
+         
+         margin-top: 3rem;
+        
+        width:90%; 
     }
     
     .initiialIntro p{
         margin: 3.5rem auto ;
         color:  black ;
-        font-size: 0.4rem;
+        
+        font-size: "1.3rem";
         font-weight: lighter;
     }
+
 }
