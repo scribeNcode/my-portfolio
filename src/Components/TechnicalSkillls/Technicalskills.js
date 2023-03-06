@@ -69,7 +69,7 @@ export default function Technicalskills() {
       </section>
 
       <section className="LearningSkill ">
-        <h3>Learning</h3>
+        {/* <h3>Learning</h3> */}
         <section className="technical_skills">
           <div className="col1 col1-row ">
             <div className="skillsdiv">
