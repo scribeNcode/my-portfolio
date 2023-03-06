@@ -37,27 +37,48 @@ function Home() {
               </h1>
               <h6>FRONTEND DEVELOPER</h6>
 
-              <h2>Building <span className="digital">Scalable Digital</span> Products</h2>
+              <h2>
+                Building <span className="digital">Scalable Digital</span>{" "}
+                Products
+              </h2>
               <p>
-             I am a software engineer and web developer, my focus is on creating responsive mobile and web applications with expertise in front-end development using  HTML<img src={html} alt="stackimg" width="20rem"/>, CSS <img src={css} alt="stackimg" width="19rem"/>, <span className="javascript">JavaScript <img src={js} alt="stackimg" width="19rem" /></span>, <span className="react">React <img src={react} alt="stackimg" width="19rem"/></span>, <span className="vue">Vuejs <img src={vue} alt="stackimg" width="19rem" /></span>, and other related technologies. My aim is to deliver high-quality applications that meet client needs and exceed expectations.
+                I am a software engineer and web developer, my focus is on
+                creating responsive mobile and web applications with expertise
+                in front-end development using HTML
+                <img src={html} alt="stackimg" width="20rem" />, CSS{" "}
+                <img src={css} alt="stackimg" width="19rem" />,{" "}
+                <span className="javascript">
+                  JavaScript <img src={js} alt="stackimg" width="19rem" />
+                </span>
+                ,{" "}
+                <span className="react">
+                  React <img src={react} alt="stackimg" width="19rem" />
+                </span>
+                ,{" "}
+                <span className="vue">
+                  Vuejs <img src={vue} alt="stackimg" width="19rem" />
+                </span>
+                , and other related technologies. My aim is to deliver
+                high-quality applications that meet client needs and exceed
+                expectations.
               </p>
               <div className="button">
                 <div>
                   <Link to="/contact" className="btn contact_text btn-light">
-                 Let's Talk
-                 <MdWavingHand className="contact_icon" size="1.5rem"  color="#fdce4d" />
-                </Link>
-                
+                    Let's Talk
+                    <MdWavingHand
+                      className="contact_icon"
+                      size="1.5rem"
+                      color="#fdce4d"
+                    />
+                  </Link>
                 </div>
-                
               </div>
 
-             
               <div className="my_image">
-              <img src={image} alt="my" />
+                <img src={image} alt="my" />
+              </div>
             </div>
-            </div>
-            
           </div>
         </section>
       </div>
@@ -70,7 +91,7 @@ function Home() {
           <div className="abtMe_card">
             <div className="card">
               <AboutMeCard
-                logo={<BsCodeSlash color="red" size="3rem"/>}
+                logo={<BsCodeSlash color="red" size="3rem" />}
                 title="Web Development"
                 text="As a web developer, I use frameworks like React and Vue.js to create interactive web pages and web applications that align with client objectives and meet end-users' needs. Optimize website performance,navigation and work with web servers and hosting services to ensure availability and responsiveness. Application of strong problem-solving skills to troubleshoot and debug issues during the development process. "
               />
@@ -84,7 +105,7 @@ function Home() {
             </div>
             <div className="card">
               <AboutMeCard
-                logo={<GoBroadcast color="red" size="3rem"/>}
+                logo={<GoBroadcast color="red" size="3rem" />}
                 title="Open Source Contribution"
                 text="I love contributing to open source ! I am a maintainer for an Open source project: https://github.com/Developstar/coderay-app. By using and contributing to open source projects, I try as much as possible to stay at the forefront of new developments in the industry."
               />
@@ -94,14 +115,11 @@ function Home() {
           <div className="button cvbutton">
             <div>
               <a className="btn contact_text btn-light" href={resume} download>
-            Download CV
-          </a>
+                Download CV
+              </a>
             </div>
-          
+          </div>
         </div>
-
-        </div>
-        
       </section>
 
       <section className="skillsSec">
