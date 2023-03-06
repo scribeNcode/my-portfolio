@@ -7,17 +7,33 @@ export default function Hero() {
     loop: 1,
   });
   return (
+    <>
     <div className="initiialIntro">
       <p >
        
-       <span   style={{fontWeight: 'bold', color: ''}}>
+       <span className="heroText"  style={{fontWeight: '300', fontSize: "1.3rem" , color: ''}}>
         {text}
         </span> 
         <span style={{color: 'blue'}}>
           <Cursor/>
-        </span>
-        
+        </span> 
       </p>
     </div>
+
+    <div className="initiialIntro_mobile">
+      <p >
+       
+       <span className="heroText"  style={{fontWeight: '300', fontSize: "0.8rem" , color: ''}}>
+        {text}
+        </span> 
+        <span style={{color: 'blue'}}>
+          <Cursor/>
+        </span> 
+      </p>
+    </div>
+    </>
+    
+
+    
   );
 }
