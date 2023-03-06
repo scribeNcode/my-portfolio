@@ -4,7 +4,11 @@ import Footer from "../../Components/Navigation/Footer/Footer";
 import image from "../../Images/myImage.png";
 import "../Home/HomeStyles.css";
 import AboutMeCard from "../../Components/AboutMeCard/AboutMeCard";
-
+import js from "../../Components/TechnicalSkillls/Images/Using/js.png.png";
+import react from "../../Components/TechnicalSkillls/Images/Using/react.png";
+import html from "../../Components/TechnicalSkillls/Images/Using/html.png";
+import css from "../../Components/TechnicalSkillls/Images/Using/css.png";
+import vue from "../../Components/TechnicalSkillls/Images/Learning/vue.png.png";
 import { Link } from "react-router-dom";
 import Technicalskills from "../../Components/TechnicalSkillls/Technicalskills";
 import HomeProjects from "../../Components/HomeProjects/HomeProjects";
@@ -12,6 +16,7 @@ import Hero from "../../Components/Homehero/Hero";
 import { BsCodeSlash } from "react-icons/bs";
 import { TbWriting } from "react-icons/tb";
 import { GoBroadcast } from "react-icons/go";
+import { MdWavingHand } from "react-icons/md";
 import resume from "../../Components/MyCV/Boluwatife_Adeyeye_CV.pdf";
 
 function Home() {
@@ -30,20 +35,21 @@ function Home() {
                 {/* Building Interactive and Visually appealing web interfaces */}
                 ADEYEYE BOLUWATIFE
               </h1>
-              <h5>FRONTEND DEVELOPER</h5>
+              <h6>FRONTEND DEVELOPER</h6>
 
-              <h2>Building Scalable Digital experiences</h2>
+              <h2>Building <span className="digital">Scalable Digital</span> Products</h2>
               <p>
-                I possess expertise in utilizing diverse technologies for
-                frontend development and consistently strive to enhance my
-                skills and keep up with the latest industry developments. I am
-                enthusiastic about exploring the limits of what can be achieved
-                and crafting visually impressive and practical designs
+             I am a software engineer and web developer, my focus is on creating responsive mobile and web applications with expertise in front-end development using  HTML<img src={html} alt="stackimg" width="20rem"/>, CSS <img src={css} alt="stackimg" width="19rem"/>, <span className="javascript">JavaScript <img src={js} alt="stackimg" width="19rem" /></span>, <span className="react">React <img src={react} alt="stackimg" width="19rem"/></span>, <span className="vue">Vuejs <img src={vue} alt="stackimg" width="19rem" /></span>, and other related technologies. My aim is to deliver high-quality applications that meet client needs and exceed expectations.
               </p>
               <div className="button">
-                <Link to="/contact" className="btn  btn-light">
-                  Let's Talk
+                <div>
+                  <Link to="/contact" className="btn contact_text btn-light">
+                 Let's Talk
+                 <MdWavingHand className="contact_icon" size="1.5rem"  color="#fdce4d" />
                 </Link>
+                
+                </div>
+                
               </div>
 
              
@@ -85,11 +91,15 @@ function Home() {
             </div>
           </div>
 
-          <div className="cvButton">
-          <a href={resume} download>
-            <button className="btn  btn-light">Download CV</button>
+          <div className="button cvbutton">
+            <div>
+              <a className="btn contact_text btn-light" href={resume} download>
+            Download CV
           </a>
+            </div>
+          
         </div>
+
         </div>
         
       </section>
