@@ -1,10 +1,14 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "../HomeProjects/HomeProjectStyles.css";
+import vue from "../TechnicalSkillls/Images/Using/vue.png.png"
 import js from "../TechnicalSkillls/Images/Using/js.png.png";
+import css from "../TechnicalSkillls/Images/Using/css.png"
 import react from "../TechnicalSkillls/Images/Using/react.png";
-import  mobilepro1 from "../ProjectImage/functional_calculator_resized.jpg" 
-import  project2 from  "../ProjectImage/Github_fetcher_resized.jpg"
+import  mobilepro1 from "../../Components/ProjectImage/CalculatorPrevv.jpg" 
+import  project2 from  "../ProjectImage/GithubPrevv.jpg"
+import project3 from "../ProjectImage/PhoniePrevv.jpg"
+import project4 from "../ProjectImage/PortfolioPrevv.jpg"
 
 export default function HomeProjects() {
   //State
@@ -19,16 +23,35 @@ export default function HomeProjects() {
     const proItems = [
       {
         title: "A functional Calculator",
-        description: "A functional calculator built with JavaScript can perform basic arithmetic operations such as addition, subtraction, multiplication, and division.",
+        // description: "A functional calculator built with JavaScript can perform basic arithmetic operations such as addition, subtraction, multiplication, and division.",
         image: <img src={mobilepro1} alt='project' />,
-        stack: <img src={js} alt="stackimg" width="25rem" />
+        stack: <img src={js} alt="stackimg" width="25rem" />,
+        stack2: <img src={css} alt="stackimg" width="25rem" />,
+        stack3: <img src={react} alt="stackimg" width="25rem" />
       },
       {
-        title: "Github Repository Fetcher",
-        description: "This GitHub Repository Fetcher is a dynamic web application built with React that allows users to fetch their GitHub repositories by entering their username. The website features a custom counter hook with increment, decrement, reset, and setValue functions .",
+        title: "Phonie Telecom App",
+        // description: "This GitHub Repository Fetcher is a dynamic web application built with React that allows users to fetch their GitHub repositories by entering their username. The website features a custom counter hook with increment, decrement, reset, and setValue functions .",
+        image: <img src={project3} alt='project' />,
+        stack: <img src={js} alt="stackimg" width="25rem" />,
+        stack2: <img src={css} alt="stackimg" width="25rem" />,
+        stack3: <img src={vue} alt="stackimg" width="25rem" /> 
+      },
+      {
+        title: "Github Repo Fetcher",
+        // description: "This GitHub Repository Fetcher is a dynamic web application built with React that allows users to fetch their GitHub repositories by entering their username. The website features a custom counter hook with increment, decrement, reset, and setValue functions .",
         image: <img src={project2} alt='project' />,
         stack: <img src={js} alt="stackimg" width="25rem" />,
-        stack2: <img src={react} alt="stackimg" width="25rem" /> 
+        stack2: <img src={vue} alt="stackimg" width="25rem" />,
+        stack3: <img src={css} alt="stackimg" width="25rem" /> 
+      },
+      {
+        title: "My Portfolio App",
+        // description: "This GitHub Repository Fetcher is a dynamic web application built with React that allows users to fetch their GitHub repositories by entering their username. The website features a custom counter hook with increment, decrement, reset, and setValue functions .",
+        image: <img src={project4} alt='project' />,
+        stack: <img src={js} alt="stackimg" width="25rem" />,
+        stack2: <img src={css} alt="stackimg" width="25rem" />,
+        stack3: <img src={react} alt="stackimg" width="25rem" /> 
       }
       // {
       //   title: "Project 3",
@@ -93,6 +116,7 @@ export default function HomeProjects() {
                <div className="stack_container">
                 <div className="stack">{projects.stack}</div>
                <div className="stack">{projects.stack2}</div>
+               <div className="stack">{projects.stack3}</div>
                </div>
                
               <a href={projects.url}>{projects.url}</a>
