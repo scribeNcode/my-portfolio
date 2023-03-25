@@ -199,9 +199,9 @@ filter: blur(3px);
         gap: 1rem;
         width: 50vw;
         position: absolute;
-        bottom: 0;
+        bottom: 2rem;
         right: 20%;
-        margin-bottom: 2rem;  
+        margin-bottom: -2.5rem;  
     }
 
      /* onHover section */
