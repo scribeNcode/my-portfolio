@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
 import "../Projects/ProjectsecStyles.css";
-import Project1 from "../ProjectImage/functional_calculator_resized.jpg";
 
 export default function Projectsec(prop) {
   const [hovered, setHovered] = useState(false);
   return (
+    <>
     <section style={{ width: "100%" }} className="wrapper">
       <div
         onMouseEnter={() => setHovered(true)}
@@ -14,7 +13,7 @@ export default function Projectsec(prop) {
       >
         {hovered ? (
           <div className="projectPage_container ">
-            <div className="onHover">
+            <div className={prop.hover}>
               <div className="project_container">
                 <div className="active_overlay"></div>
               </div>
@@ -22,7 +21,7 @@ export default function Projectsec(prop) {
           </div>
         ) : (
           <div className="projectPage_container ">
-            <div className="notOnHover">
+            <div className={prop.nothover}>
               <div className="project_container">
                 <div className="project_details"></div>
               </div>
@@ -38,18 +37,19 @@ export default function Projectsec(prop) {
       </div>
       <div className="pro-btns">
         <a
-          href="https://functional-calculator-using-react-alt-school-assignment-03.vercel.app/"
+          href={prop.live}
           className="btn"
         >
           Live Project
         </a>
         <a
-          href="https://github.com/Developstar/Functional-calculator-using-react-Alt_School-Assignment-03"
+          href={prop.github}
           className="btn"
         >
           Code on Github
         </a>
       </div>
     </section>
+    </>
   );
 }
