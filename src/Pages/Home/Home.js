@@ -17,7 +17,7 @@ import { BsCodeSlash } from "react-icons/bs";
 import { TbWriting } from "react-icons/tb";
 import { GoBroadcast } from "react-icons/go";
 import { MdWavingHand } from "react-icons/md";
-import resume from "../../Components/MyCV/Adeyeye_Boluwatife_CV.pdf";
+import resume from "../../Components/MyCV/myCV.pdf";
 
 function Home() {
   return (
