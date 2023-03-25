@@ -4,11 +4,11 @@ import html from "../TechnicalSkillls/Images/Using/html.png";
 import css from "../TechnicalSkillls/Images/Using/css.png";
 import js from "../TechnicalSkillls/Images/Using/js.png.png";
 import react from "../TechnicalSkillls/Images/Using/react.png";
-import figma from "../TechnicalSkillls/Images/Using/figma.png.png";
+// import figma from "../TechnicalSkillls/Images/Using/figma.png.png";
 import git from "../TechnicalSkillls/Images/Using/git.png.png";
 import sass from "../TechnicalSkillls/Images/Learning/sass.png.png";
 import ts from "../TechnicalSkillls/Images/Learning/ts.png.png";
-import vue from "../TechnicalSkillls/Images/Learning/vue.png.png";
+import vue from "../TechnicalSkillls/Images/Using/vue.png.png";
 
 export default function Technicalskills() {
   return (
@@ -44,10 +44,16 @@ export default function Technicalskills() {
 
         <section className="technical_skills row2">
           <div className="col1 col1-2">
-            <div className="skillsdiv">
+            {/* <div className="skillsdiv">
               <img src={figma} alt="figma image" />
               <div className="skilltext">
                 <h5>Figma</h5>
+              </div>
+            </div> */}
+            <div className="skillsdiv">
+              <img src={vue} alt="vue image" />
+              <div className="skilltext">
+                <h5>Vue</h5>
               </div>
             </div>
             <div className="skillsdiv ">
@@ -69,7 +75,7 @@ export default function Technicalskills() {
       </section>
 
       <section className="LearningSkill ">
-        {/* <h3>Learning</h3> */}
+        <h3>Learning</h3>
         <section className="technical_skills">
           <div className="col1 col1-row ">
             <div className="skillsdiv">
@@ -78,12 +84,7 @@ export default function Technicalskills() {
                 <h5>SASS</h5>
               </div>
             </div>
-            <div className="skillsdiv">
-              <img src={vue} alt="vue image" />
-              <div className="skilltext">
-                <h5>Vue</h5>
-              </div>
-            </div>
+
 
             
             <div className="skillsdiv ">
