@@ -18,7 +18,7 @@ function Works() {
 
         <Projectsec  hover="portfolio Hover" nothover="portfolio notOnHover" projectTitle="Portfolio Website" projectDetails ="A Portfolio website built with ReactJs to showcase my works and skills as a Frontend developer in a modern and interactive way. This website can be easily updated and maintained" live="https://developstar.vercel.app/"  github="https://github.com/Developstar/my-portfolio"/>
         
-        <Projectsec  hover="phonie onHover" nothover="phonie notOnHover" projectTitle="Phonie" projectDetails ="A social media website built with Reactjs." live="https://phonie-telecom-carrier-identifier-wnwe.vercel.app/"  github="https://github.com/Developstar/Phonie"/>
+        <Projectsec  hover="phonie onHover" nothover="phonie notOnHover" projectTitle="Phonie Social Media App" projectDetails ="A social media website built with Reactjs." live="https://phonie-telecom-carrier-identifier-wnwe.vercel.app/"  github="https://github.com/Developstar/Phonie"/>
         
       </div>
 
