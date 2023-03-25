@@ -8,7 +8,7 @@ import js from "../../Components/TechnicalSkillls/Images/Using/js.png.png";
 import react from "../../Components/TechnicalSkillls/Images/Using/react.png";
 import html from "../../Components/TechnicalSkillls/Images/Using/html.png";
 import css from "../../Components/TechnicalSkillls/Images/Using/css.png";
-import vue from "../../Components/TechnicalSkillls/Images/Learning/vue.png.png";
+import vue from "../../Components/TechnicalSkillls/Images/Using/vue.png.png";
 import { Link } from "react-router-dom";
 import Technicalskills from "../../Components/TechnicalSkillls/Technicalskills";
 import HomeProjects from "../../Components/HomeProjects/HomeProjects";
@@ -17,7 +17,7 @@ import { BsCodeSlash } from "react-icons/bs";
 import { TbWriting } from "react-icons/tb";
 import { GoBroadcast } from "react-icons/go";
 import { MdWavingHand } from "react-icons/md";
-import resume from "../../Components/MyCV/Boluwatife_Adeyeye_CV.pdf";
+import resume from "../../Components/MyCV/Adeyeye_Boluwatife_CV.pdf";
 
 function Home() {
   return (
