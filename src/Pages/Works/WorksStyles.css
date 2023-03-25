@@ -22,7 +22,7 @@
 
 .calculator{
     background: url('../../Components/ProjectImage/calculatorReplit.png');
-
+   
 }
 
 
@@ -54,19 +54,22 @@
 
     .portfolio{
         background: url("../../Components/ProjectImage/mobilePortfolio.png");
+        max-width: 70vw;
     }
 
     .phonie{
         background: url("../../Components/ProjectImage/mobilePhonie.png");
+        max-width: 70vw;
     }
 
     .github{
         background: url('../../Components/ProjectImage/mobileGithub.png');
+        max-width: 70vw;
     }
 
     .calculator{
         background: url('../../Components/ProjectImage/mobileCalculator.png');
-    
+        max-width: 70vw;
     }
 
     .Works_container{
@@ -74,8 +77,5 @@
         margin: auto;
     }
 
-    .footerDiv{
-        margin-left: 1rem;
-    }
-
+    
 }
