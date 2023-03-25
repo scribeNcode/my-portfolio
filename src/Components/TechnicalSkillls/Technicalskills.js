@@ -8,7 +8,7 @@ import react from "../TechnicalSkillls/Images/Using/react.png";
 import git from "../TechnicalSkillls/Images/Using/git.png.png";
 import sass from "../TechnicalSkillls/Images/Learning/sass.png.png";
 import ts from "../TechnicalSkillls/Images/Learning/ts.png.png";
-import vue from "../TechnicalSkillls/Images/Using/vue.png.png";
+import vue from "../TechnicalSkillls/Images/Using/vue.png";
 
 export default function Technicalskills() {
   return (

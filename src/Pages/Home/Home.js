@@ -8,7 +8,7 @@ import js from "../../Components/TechnicalSkillls/Images/Using/js.png.png";
 import react from "../../Components/TechnicalSkillls/Images/Using/react.png";
 import html from "../../Components/TechnicalSkillls/Images/Using/html.png";
 import css from "../../Components/TechnicalSkillls/Images/Using/css.png";
-import vue from "../../Components/TechnicalSkillls/Images/Using/vue.png.png";
+import vue from "../../Components/TechnicalSkillls/Images/Using/vue.png";
 import { Link } from "react-router-dom";
 import Technicalskills from "../../Components/TechnicalSkillls/Technicalskills";
 import HomeProjects from "../../Components/HomeProjects/HomeProjects";

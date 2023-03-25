@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "../HomeProjects/HomeProjectStyles.css";
-import vue from "../TechnicalSkillls/Images/Using/vue.png.png"
+import vue from "../TechnicalSkillls/Images/Using/vue.png"
 import js from "../TechnicalSkillls/Images/Using/js.png.png";
 import css from "../TechnicalSkillls/Images/Using/css.png"
 import react from "../TechnicalSkillls/Images/Using/react.png";
