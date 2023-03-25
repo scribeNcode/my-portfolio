@@ -32,20 +32,20 @@
 }
 
 .notOnHover{
-    background: url('../ProjectImage/functional\ calculator.png');
 filter: blur(3px);
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: contain;  
     height: 90vh;
+    
 }
 
 .onHover{
-    background: url('../ProjectImage/functional\ calculator.png');
-
     background-repeat: no-repeat;
     background-size: cover;  
     height: 90vh;
 }
+
+
 
 .content{
     position: absolute;
@@ -114,6 +114,12 @@ filter: blur(3px);
 @media (min-width: 320px) and (max-width: 480px) {
 
     /* notOnHover section */
+   .content-divv{
+    cursor: default;
+    pointer-events: none;
+    width: 100vw;
+    margin: 0 auto;
+   }
 
     .wrapper{
         position: relative;
@@ -142,7 +148,8 @@ filter: blur(3px);
 
     .projectPage_container{
         width: 100%;
-        height: 90vh;
+        
+        margin: 0 auto;
         position: relative;
         top: 0;
         
@@ -151,17 +158,23 @@ filter: blur(3px);
     .project_details{
         background: rgba(0, 0, 0, 0.7);
         width: 100%;
-        height: 69vh;
+        height: 90vh;
         text-align: center;
     }
 
     .notOnHover{
-        background: url('../ProjectImage/functional\ calculator.png');
+        background: url('../../Components/ProjectImage/calculatorReplit.png');
         background-repeat: no-repeat;
         background-size: cover; 
         background-position-x: 50%; 
-        height: 75%; 
+        
+        height: 75vh; 
+        width: 100vw;
         /* display: none; */
+    }
+
+    .onHover{
+        
     }
 
     .content{
@@ -173,7 +186,7 @@ filter: blur(3px);
 
    .pro-btns .btn{
     padding: 0.4rem 0.4rem;
-    margin-top: 0;
+    margin-top: 4rem;
     font-size: 0.4rem;
     text-align: center;
 }
@@ -195,7 +208,7 @@ filter: blur(3px);
      /* onHover section */
 
      .onHover{
-        background: url('../ProjectImage/functional\ calculator.png');
+        
         background-repeat: no-repeat;
         background-size: cover; 
         background-position-x: 50%; 
