@@ -139,6 +139,10 @@
   margin-top: 2rem;
 }
 
+.technicalSkill_cont{
+  margin-top: 15rem;
+}
+
 .Abtme_homesection_heading {
   margin-bottom: 2rem;
   color: white;
@@ -303,8 +307,8 @@
 
   .Abtme_homesection {
     text-align: center;
-    margin-top: -2rem;
-    height: 255vh;
+    margin-top: 3rem;
+    height: 265vh;
   }
 
   .Abtme_homesection_heading h3 {
@@ -374,7 +378,7 @@
   /* Projects and skillsets section on home page */
   .skillsSec {
     width: 100%;
-    margin-top: 1vh;
+    margin-top: 12rem;
   }
 
   .footer_section {
