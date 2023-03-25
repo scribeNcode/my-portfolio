@@ -18,3 +18,64 @@
     gap: 10rem;
     
 }
+
+
+.calculator{
+    background: url('../../Components/ProjectImage/calculatorReplit.png');
+
+}
+
+
+.portfolio{
+    background: url("../../Components/ProjectImage/portfolio.jpg");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+.phonie{
+    background: url("../../Components/ProjectImage/Phonie.jpg");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+
+
+.github{
+    background: url('../../Components/ProjectImage/github-projects.jpg');
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+
+@media (min-width:320px) and (max-width:480px){
+
+    .portfolio{
+        background: url("../../Components/ProjectImage/mobilePortfolio.png");
+    }
+
+    .phonie{
+        background: url("../../Components/ProjectImage/mobilePhonie.png");
+    }
+
+    .github{
+        background: url('../../Components/ProjectImage/mobileGithub.png');
+    }
+
+    .calculator{
+        background: url('../../Components/ProjectImage/mobileCalculator.png');
+    
+    }
+
+    .Works_container{
+        width: 100%;
+        margin: auto;
+    }
+
+    .footerDiv{
+        margin-left: 1rem;
+    }
+
+}
