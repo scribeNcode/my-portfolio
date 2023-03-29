@@ -154,6 +154,18 @@
   padding: 2rem;
 }
 
+h3{
+  transform: rotate(10deg);
+  background: #075183;
+  animation-name: tilt;
+  animation-duration: 4s;
+}
+
+@keyframes tilt {
+  from {transform: rotate(-20deg);}
+  to {transform: rotate(0, 10deg);}
+}
+
 .abtMe_card {
   display: flex;
 
