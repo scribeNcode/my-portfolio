@@ -4,11 +4,6 @@
   width: 100%;
   background: white;
   color: black;
-  background: url("../../Images/smearing-bright-blue-paint.jpg");
-  background-size: contain;
-  background-attachment: fixed;
-  background-position-x: -130%;
-  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -154,16 +149,15 @@
   padding: 2rem;
 }
 
-h3{
-  transform: rotate(10deg);
-  background: #075183;
-  animation-name: tilt;
-  animation-duration: 4s;
+h2{
+  
+  animation: tilt 200ms 8s 8 alternate;
+  
 }
 
 @keyframes tilt {
-  from {transform: rotate(-20deg);}
-  to {transform: rotate(0, 10deg);}
+  from {transform: scale(1);}
+  to {transform: scale(2);}
 }
 
 .abtMe_card {
