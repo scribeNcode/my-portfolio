@@ -77,15 +77,16 @@
 .intro h2 {
   margin-bottom: 1.5rem;
   color: #419cda;
+  font-size: 3rem;
 }
 
 .intro h6 {
   margin-top: -1.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .intro p {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 300;
 
   margin-bottom: 1rem;
@@ -260,7 +261,9 @@ h2{
 
   .intro h6 {
     font-size: 0.5rem;
+    margin-bottom: 3rem;
   }
+
   /* .intro:hover {
     background: radial-gradient(white, #419cda);
   } */
