@@ -1,6 +1,6 @@
 /* // Home Page Section */
 .Home {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   background: white;
   color: black;
@@ -126,10 +126,11 @@
 
 .Abtme_homesection {
   text-align: center;
-  margin-top: -12rem;
+  margin-top: -14rem;
   background: linear-gradient(to top, black, white, black);
-  height: 150vh;
+  height: 135vh;
 }
+
 
 .skillsSec {
   margin-top: 2rem;
