@@ -1,4 +1,20 @@
 /* // Home Page Section */
+
+.loaderSection{
+  background: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loaderSection h1{
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+}
+
 .Home {
   height: 80vh;
   width: 100%;
