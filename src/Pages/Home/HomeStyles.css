@@ -151,11 +151,7 @@
   padding: 2rem;
 }
 
-h2{
-  
-  animation: tilt 200ms 8s 8 alternate;
-  
-}
+
 
 @keyframes tilt {
   from {transform: scale(1);}
