@@ -19,20 +19,20 @@ export default function Technicalskills() {
         <section className="technical_skills">
           <div className="col1">
             <div className="skillsdiv">
-              <img src={html} alt="html image" />
+              <img src={html} alt="an html icon " />
               <div className="skilltext">
                 <h5>HTML5</h5>
               </div>
             </div>
             <div className="skillsdiv ">
-              <img src={css} alt="css image" />
+              <img src={css} alt="css icon" />
               <div className="skilltext">
                 <h5>CSS3</h5>
               </div>
             </div>
 
             <div className="skillsdiv ">
-            <img src={js} alt="js image" />
+            <img src={js} alt="js icon" />
             <div className="skilltext">
               <h5>JavaScript</h5>
             </div>
@@ -51,19 +51,19 @@ export default function Technicalskills() {
               </div>
             </div> */}
             <div className="skillsdiv">
-              <img src={vue} alt="vue image" />
+              <img src={vue} alt="vue icon" />
               <div className="skilltext">
                 <h5>Vue</h5>
               </div>
             </div>
             <div className="skillsdiv ">
-              <img src={git} alt="css image" />
+              <img src={git} alt="css icon" />
               <div className="skilltext">
                 <h5>Git</h5>
               </div>
             </div>
             <div className="skillsdiv ">
-            <img src={react} alt="react image" />
+            <img src={react} alt="react icon" />
             <div className="skilltext">
               <h5>React</h5>
             </div>
@@ -79,7 +79,7 @@ export default function Technicalskills() {
         <section className="technical_skills">
           <div className="col1 col1-row ">
             <div className="skillsdiv">
-              <img src={sass} alt="sass image" />
+              <img src={sass} alt="sass icon" />
               <div className="skilltext">
                 <h5>SASS</h5>
               </div>
@@ -88,7 +88,7 @@ export default function Technicalskills() {
 
             
             <div className="skillsdiv ">
-              <img src={ts} alt="ts image" />
+              <img src={ts} alt="ts icon" />
               <div className="skilltext">
                 <h5>TYPESCRIPT</h5>
               </div>

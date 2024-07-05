@@ -176,13 +176,11 @@ p {
 /* Mobile*/
 
 @media (min-width: 320px) and (max-width: 480px) {
-   html {
-    width: 100%;
-  }
+
 
   body {
     width: 100%;
-    background: ;
+
   }
 
   .logo {
